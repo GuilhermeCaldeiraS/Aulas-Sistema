@@ -1,0 +1,106 @@
+--------Criar tabela----------------------------------------
+CREATE TABLE alunos(
+   id INT PRIMARY KEY AUTO_INCREMENT,
+   nome VARCHAR(150),
+    idade INT(3),
+    nota DECIMAL
+    );
+
+CREATE TABLE alunos(
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   nome VARCHAR(100) NOT NULL,
+   idade INT,
+   cidade VARCHAR(100)
+    );
+----------Inserindo dados na Tabela aluno-------------------------------------
+INSERT INTO alunos (nome, idade, nota) VALUES ('Vinicus Verneck', 22, 10);
+
+INSERT INTO alunos (nome, idade, cidade) VALUES ('Vinicius Verneck', 44, 'São Paulo');
+
+INSERT INTO alunos (nome, idade, nota) VALUES 
+('João', 26, 9.5),
+('Maria', 30, 9.0),
+('Fernanda', 35,7.5);
+
+----------Selcionar itens da Tabela-------------------
+
+/*select * from HR.COUNTRIES where REGION_ID = 10*/
+
+/*select * from hr.COUNTRIES 
+where COUNTRY_ID = 'BR';*/
+
+/*select * from hr.COUNTRIES 
+where COUNTRY_ID IN ('BR', 'AU');*/
+
+/*select COUNTRY_NAME from hr.COUNTRIES
+where COUNTRY_ID IN ('BR', 'AU');*/
+
+/*select *  from hr.DEPARTMENTS
+where DEPARTMENT_ID = 10*/
+
+/*select * from hr.DEPARTMENTS
+where DEPARTMENT_ID in (10, 20)*/
+
+/*select * from HR.EMPLOYEES*/
+
+/*select first_name from HR.EMPLOYEES where FIRST_NAME = 'Sundar'*/
+
+/*select FIRST_NAME from HR.EMPLOYEES where JOB_ID = 'IT_PROG'*/
+
+select * from HR.EMPLOYEES;
+
+
+-----Atualizar dados dentro da tabela--------------------------------
+
+update HR.EMPLOYEES 
+set SALARY = 12000
+where EMPLOYEE_ID = 103;
+
+UPDATE alunos
+Set nome = 'Carlos'
+WHERE id = 2;
+
+
+select * from HR.EMPLOYEES;
+
+--------Deletar---------------
+
+DELETE FROM alunos WHERE id = 2;
+
+-----------ATIVIDADE-------------------------
+
+CREATE TABLE alunos(
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   nome VARCHAR(100) NOT NULL,
+   idade INT,
+   cidade VARCHAR(100)
+    );
+
+INSERT INTO alunos (nome, idade, cidade) 
+VALUES 
+('José Santos', 15, 'São Paulo'),
+
+      INSERT INTO alunos (nome, idade, cidade) 
+      VALUES 
+      ('Ana Souza', 19, 'São Paulo');
+
+SELECT * FROM alunos;
+
+SELECT * FROM alunos where nome = 'José Santos';
+
+UPDATE alunos
+SET cidade = 'Osasco'
+where id = 1;
+
+UPDATE alunos
+SET idade = 20
+where id = 2;
+
+SELECT * FROM alunos;
+
+DELETE FROM alunos where id = 2;
+
+
+
+
+
