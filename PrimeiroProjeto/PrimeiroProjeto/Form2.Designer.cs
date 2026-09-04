@@ -32,10 +32,10 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.pnlCadastro = new System.Windows.Forms.Panel();
-            this.txtEmailCadastro = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.pnlCadastro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +73,7 @@
             this.pnlCadastro.Controls.Add(this.btnCadastrar);
             this.pnlCadastro.Controls.Add(this.txtSenha);
             this.pnlCadastro.Controls.Add(this.txtEmail);
-            this.pnlCadastro.Controls.Add(this.txtEmailCadastro);
+            this.pnlCadastro.Controls.Add(this.txtNome);
             this.pnlCadastro.Controls.Add(this.lblnome);
             this.pnlCadastro.Controls.Add(this.lblSenha);
             this.pnlCadastro.Controls.Add(this.lblEmail);
@@ -81,30 +81,7 @@
             this.pnlCadastro.Name = "pnlCadastro";
             this.pnlCadastro.Size = new System.Drawing.Size(450, 300);
             this.pnlCadastro.TabIndex = 3;
-            // 
-            // txtEmailCadastro
-            // 
-            this.txtEmailCadastro.Location = new System.Drawing.Point(110, 76);
-            this.txtEmailCadastro.Name = "txtEmailCadastro";
-            this.txtEmailCadastro.Size = new System.Drawing.Size(231, 20);
-            this.txtEmailCadastro.TabIndex = 3;
-            this.txtEmailCadastro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(110, 125);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(231, 20);
-            this.txtEmail.TabIndex = 4;
-            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtSenha
-            // 
-            this.txtSenha.Location = new System.Drawing.Point(110, 168);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(231, 20);
-            this.txtSenha.TabIndex = 5;
-            this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pnlCadastro.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCadastro_Paint);
             // 
             // btnCadastrar
             // 
@@ -114,6 +91,31 @@
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "Cadastra- Se";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Location = new System.Drawing.Point(110, 168);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(231, 20);
+            this.txtSenha.TabIndex = 5;
+            this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(110, 125);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(231, 20);
+            this.txtEmail.TabIndex = 4;
+            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(110, 76);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(231, 20);
+            this.txtNome.TabIndex = 3;
+            this.txtNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmCadastro
             // 
@@ -139,6 +141,6 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtEmailCadastro;
+        private System.Windows.Forms.TextBox txtNome;
     }
 }

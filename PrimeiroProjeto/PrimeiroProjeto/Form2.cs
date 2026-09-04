@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,5 +32,24 @@ namespace PrimeiroProjeto
         {
 
         }
-    }
+
+        private void pnlCadastro_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+           string nome = txtNome.Text.Trim();
+           string email = txtEmail.Text .Trim();
+            string senhha = txtSenha.Text;
+            if (nome == "" || email ==  ||  senhha == "") 
+        }
+
+        MessageBox.Show (
+            "Preencha todos os campos.",
+            "Atenção"
+            )
+
+       
 }
