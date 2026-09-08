@@ -34,7 +34,7 @@
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.pnlEntrar = new System.Windows.Forms.Panel();
-            this.lblCadastrar = new System.Windows.Forms.LinkLabel();
+            this.lnkCadastrar = new System.Windows.Forms.LinkLabel();
             this.pnlEntrar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,7 +91,7 @@
             // 
             // pnlEntrar
             // 
-            this.pnlEntrar.Controls.Add(this.lblCadastrar);
+            this.pnlEntrar.Controls.Add(this.lnkCadastrar);
             this.pnlEntrar.Controls.Add(this.lblEmail);
             this.pnlEntrar.Controls.Add(this.btnEntrar);
             this.pnlEntrar.Controls.Add(this.txtEmail);
@@ -104,18 +104,19 @@
             this.pnlEntrar.TabIndex = 5;
             this.pnlEntrar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlEntrar_Paint);
             // 
-            // lblCadastrar
+            // lnkCadastrar
             // 
-            this.lblCadastrar.AutoSize = true;
-            this.lblCadastrar.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.lblCadastrar.LinkColor = System.Drawing.Color.Black;
-            this.lblCadastrar.Location = new System.Drawing.Point(130, 254);
-            this.lblCadastrar.Name = "lblCadastrar";
-            this.lblCadastrar.Size = new System.Drawing.Size(52, 13);
-            this.lblCadastrar.TabIndex = 5;
-            this.lblCadastrar.TabStop = true;
-            this.lblCadastrar.Text = "Cadastrar";
-            this.lblCadastrar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblCadastrar_LinkClicked);
+            this.lnkCadastrar.AutoSize = true;
+            this.lnkCadastrar.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lnkCadastrar.LinkColor = System.Drawing.Color.Black;
+            this.lnkCadastrar.Location = new System.Drawing.Point(135, 256);
+            this.lnkCadastrar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lnkCadastrar.Name = "lnkCadastrar";
+            this.lnkCadastrar.Size = new System.Drawing.Size(52, 13);
+            this.lnkCadastrar.TabIndex = 5;
+            this.lnkCadastrar.TabStop = true;
+            this.lnkCadastrar.Text = "Cadastrar";
+            this.lnkCadastrar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCadastrar_LinkClicked);
             // 
             // Form1
             // 
@@ -126,6 +127,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MinimumSize = new System.Drawing.Size(480, 358);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Entrar";
             this.pnlEntrar.ResumeLayout(false);
             this.pnlEntrar.PerformLayout();
@@ -141,7 +143,7 @@
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Panel pnlEntrar;
-        private System.Windows.Forms.LinkLabel lblCadastrar;
+        private System.Windows.Forms.LinkLabel lnkCadastrar;
     }
 }
 

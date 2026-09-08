@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\",
+  "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\desktop\\aulas-sistema\\primeiroprojeto\\primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\desktop\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\desktop\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\desktop\\aulas-sistema\\primeiroprojeto\\primeiroprojeto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\primeiroprojeto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\desktop\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|c:\\users\\db\\desktop\\primeiroprojeto\\primeiroprojeto\\primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\primeiroprojeto\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C719577-5109-430D-A6AD-883E2E64EC98}|PrimeiroProjeto\\PrimeiroProjeto.csproj|solutionrelative:primeiroprojeto\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,61 +39,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "PrimeiroProjeto\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\FrmPrincipal.cs [Design]",
-              "RelativeToolTip": "PrimeiroProjeto\\FrmPrincipal.cs [Design]",
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T22:48:26.632Z",
+              "WhenOpened": "2026-09-04T23:34:44.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmPrincipal.cs [Design]",
+              "RelativeToolTip": "PrimeiroProjeto\\frmPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T23:11:13.322Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
-              "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
-              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
-              "RelativeToolTip": "PrimeiroProjeto\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Title": "frmCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmCadastro.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmCadastro.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\frmCadastro.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T23:23:29.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form2.cs",
-              "RelativeDocumentMoniker": "PrimeiroProjeto\\Form2.cs",
-              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form2.cs",
-              "RelativeToolTip": "PrimeiroProjeto\\Form2.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:54:39.936Z",
+              "WhenOpened": "2026-09-04T22:58:46.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form2.cs",
-              "RelativeDocumentMoniker": "PrimeiroProjeto\\Form2.cs",
-              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form2.cs [Design]",
-              "RelativeToolTip": "PrimeiroProjeto\\Form2.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "frmCadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\frmCadastro.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\frmCadastro.cs [Design]",
+              "RelativeToolTip": "PrimeiroProjeto\\frmCadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:41:36.6Z"
+              "WhenOpened": "2026-09-02T22:39:53.126Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
-              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs [Design]",
               "RelativeToolTip": "PrimeiroProjeto\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T22:42:56.793Z"
+              "WhenOpened": "2026-08-26T22:42:56.793Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
+              "RelativeDocumentMoniker": "PrimeiroProjeto\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\primeiroprojeto\\PrimeiroProjeto\\PrimeiroProjeto\\Form1.cs",
+              "RelativeToolTip": "PrimeiroProjeto\\Form1.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAIAwwD8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T23:17:15.654Z",
+              "EditorCaption": ""
             }
           ]
         }

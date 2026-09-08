@@ -57,11 +57,14 @@ namespace PrimeiroProjeto
             if (email.ToLower() == EmailCadastrado
         && senha == SenhaCadastrada)
             {
-                MessageBox.Show(
-                    "Login realizado com sucesso!",
-                    "Bem-vindo", MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                frmPrincipal principal = new frmPrincipal();
+
+                principal.DefinirBoasVindas(NomeCadastrado);
+
+                principal.Show();
+                this.Hide();
             }
+
             else
             {
                 MessageBox.Show(
@@ -75,7 +78,7 @@ namespace PrimeiroProjeto
 
         }
 
-        private void lblCadastrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lnkCadastrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmCadastro cadastro = new frmCadastro();
 
