@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
 
 namespace PrimeiroProjeto
 {
@@ -33,17 +35,42 @@ namespace PrimeiroProjeto
                 return;
             }
 
-            // salva os dados para o login
-            Form1.NomeCadastrado = nome;
-            Form1.EmailCadastrado = email.ToLower();
-            Form1.SenhaCadastrada = senha;
-
-            MessageBox.Show(
-                "Cadastro realizado!",
-                "Sucesso", MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
-
-            this.Close();
+            try
+            {
+                using (MySqlConnection conexao =
+                Conexao.Abrir())
+                {
+                    string sql =
+                    "INSERT INTO usuarios " +
+                    "(nome, email, senha) " +
+                    "VALUES (@nome, @email, " +
+                    "@senha)";
+                    MySqlCommand comando =
+                    new MySqlCommand(
+                    sql, conexao);
+                    comando.Parameters.AddWithValue(
+                    "@nome", nome);
+                    comando.Parameters.AddWithValue(
+                    "@email", email);
+                    comando.Parameters.AddWithValue(
+                    "@senha", senha);
+                    comando.ExecuteNonQuery();
+                }
+                MessageBox.Show(
+                    "Cadastro realizado!",
+                    "Sucesso", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                this.Close();
+            }
+            catch (MySqlException)
+            {
+                MessageBox.Show(
+                "Esse email ja esta" +
+                " cadastrado.",
+                "Atencao",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Warning);
+            }
         }
     }
 }
