@@ -1,0 +1,11 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\bin\Debug\olamundoFreamework.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\bin\Debug\olamundoFreamework.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\bin\Debug\olamundoFreamework.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projeto Aulas Eliesio\olamundoFreamework\olamundoFreamework\obj\Debug\olamundoFreamework.Frm_Mundo.resources
