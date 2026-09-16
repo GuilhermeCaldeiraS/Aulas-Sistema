@@ -20,3 +20,14 @@ C:\Users\DB\Desktop\CorretoCadastro\Cadastro1\Cadastro1\obj\Debug\Cadastro1.cspr
 C:\Users\DB\Desktop\CorretoCadastro\Cadastro1\Cadastro1\obj\Debug\Cadastro1.csproj.CoreCompileInputs.cache
 C:\Users\DB\Desktop\CorretoCadastro\Cadastro1\Cadastro1\obj\Debug\Cadastro1.exe
 C:\Users\DB\Desktop\CorretoCadastro\Cadastro1\Cadastro1\obj\Debug\Cadastro1.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\bin\Debug\Cadastro1.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\bin\Debug\Cadastro1.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\bin\Debug\Cadastro1.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.Frm_Cadastro.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Cadastro1\Cadastro1\obj\Debug\Cadastro1.csproj.CoreCompileInputs.cache

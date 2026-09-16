@@ -64,176 +64,199 @@
             // Lbl_DadosP
             // 
             this.Lbl_DadosP.AutoSize = true;
-            this.Lbl_DadosP.Location = new System.Drawing.Point(382, 53);
+            this.Lbl_DadosP.Location = new System.Drawing.Point(286, 43);
+            this.Lbl_DadosP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_DadosP.Name = "Lbl_DadosP";
-            this.Lbl_DadosP.Size = new System.Drawing.Size(108, 16);
+            this.Lbl_DadosP.Size = new System.Drawing.Size(83, 13);
             this.Lbl_DadosP.TabIndex = 0;
             this.Lbl_DadosP.Text = "Dados Pessoais";
             // 
             // Lbl_Nome
             // 
             this.Lbl_Nome.AutoSize = true;
-            this.Lbl_Nome.Location = new System.Drawing.Point(58, 107);
+            this.Lbl_Nome.Location = new System.Drawing.Point(44, 87);
+            this.Lbl_Nome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_Nome.Name = "Lbl_Nome";
-            this.Lbl_Nome.Size = new System.Drawing.Size(47, 16);
+            this.Lbl_Nome.Size = new System.Drawing.Size(38, 13);
             this.Lbl_Nome.TabIndex = 1;
             this.Lbl_Nome.Text = "Nome ";
             // 
             // Lbl_Sobrenome
             // 
             this.Lbl_Sobrenome.AutoSize = true;
-            this.Lbl_Sobrenome.Location = new System.Drawing.Point(58, 151);
+            this.Lbl_Sobrenome.Location = new System.Drawing.Point(44, 123);
+            this.Lbl_Sobrenome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_Sobrenome.Name = "Lbl_Sobrenome";
-            this.Lbl_Sobrenome.Size = new System.Drawing.Size(78, 16);
+            this.Lbl_Sobrenome.Size = new System.Drawing.Size(61, 13);
             this.Lbl_Sobrenome.TabIndex = 2;
             this.Lbl_Sobrenome.Text = "Sobrenome";
             // 
             // Lbl_idade
             // 
             this.Lbl_idade.AutoSize = true;
-            this.Lbl_idade.Location = new System.Drawing.Point(58, 200);
+            this.Lbl_idade.Location = new System.Drawing.Point(44, 162);
+            this.Lbl_idade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_idade.Name = "Lbl_idade";
-            this.Lbl_idade.Size = new System.Drawing.Size(42, 16);
+            this.Lbl_idade.Size = new System.Drawing.Size(34, 13);
             this.Lbl_idade.TabIndex = 3;
             this.Lbl_idade.Text = "Idade";
             // 
             // Lbl_Bairro
             // 
             this.Lbl_Bairro.AutoSize = true;
-            this.Lbl_Bairro.Location = new System.Drawing.Point(58, 239);
+            this.Lbl_Bairro.Location = new System.Drawing.Point(44, 194);
+            this.Lbl_Bairro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_Bairro.Name = "Lbl_Bairro";
-            this.Lbl_Bairro.Size = new System.Drawing.Size(43, 16);
+            this.Lbl_Bairro.Size = new System.Drawing.Size(34, 13);
             this.Lbl_Bairro.TabIndex = 4;
             this.Lbl_Bairro.Text = "Bairro";
             // 
             // Lbl_Celular
             // 
             this.Lbl_Celular.AutoSize = true;
-            this.Lbl_Celular.Location = new System.Drawing.Point(58, 282);
+            this.Lbl_Celular.Location = new System.Drawing.Point(44, 229);
+            this.Lbl_Celular.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_Celular.Name = "Lbl_Celular";
-            this.Lbl_Celular.Size = new System.Drawing.Size(49, 16);
+            this.Lbl_Celular.Size = new System.Drawing.Size(39, 13);
             this.Lbl_Celular.TabIndex = 5;
             this.Lbl_Celular.Text = "Celular";
             // 
             // Lbl_email
             // 
             this.Lbl_email.AutoSize = true;
-            this.Lbl_email.Location = new System.Drawing.Point(58, 329);
+            this.Lbl_email.Location = new System.Drawing.Point(44, 267);
+            this.Lbl_email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_email.Name = "Lbl_email";
-            this.Lbl_email.Size = new System.Drawing.Size(45, 16);
+            this.Lbl_email.Size = new System.Drawing.Size(35, 13);
             this.Lbl_email.TabIndex = 6;
             this.Lbl_email.Text = "E-mail";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(58, 380);
+            this.label8.Location = new System.Drawing.Point(44, 309);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(149, 16);
+            this.label8.Size = new System.Drawing.Size(118, 13);
             this.label8.TabIndex = 7;
             this.label8.Text = "Confirmação de Dados ";
             // 
             // Txt_nome
             // 
-            this.Txt_nome.Location = new System.Drawing.Point(163, 107);
+            this.Txt_nome.Location = new System.Drawing.Point(122, 87);
+            this.Txt_nome.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_nome.Name = "Txt_nome";
-            this.Txt_nome.Size = new System.Drawing.Size(228, 22);
+            this.Txt_nome.Size = new System.Drawing.Size(172, 20);
             this.Txt_nome.TabIndex = 9;
             // 
             // Txt_Sobrenome
             // 
-            this.Txt_Sobrenome.Location = new System.Drawing.Point(163, 148);
+            this.Txt_Sobrenome.Location = new System.Drawing.Point(122, 120);
+            this.Txt_Sobrenome.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Sobrenome.Name = "Txt_Sobrenome";
-            this.Txt_Sobrenome.Size = new System.Drawing.Size(262, 22);
+            this.Txt_Sobrenome.Size = new System.Drawing.Size(198, 20);
             this.Txt_Sobrenome.TabIndex = 10;
             // 
             // Txt_Idade
             // 
-            this.Txt_Idade.Location = new System.Drawing.Point(121, 196);
+            this.Txt_Idade.Location = new System.Drawing.Point(91, 159);
+            this.Txt_Idade.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Idade.Name = "Txt_Idade";
-            this.Txt_Idade.Size = new System.Drawing.Size(55, 22);
+            this.Txt_Idade.Size = new System.Drawing.Size(42, 20);
             this.Txt_Idade.TabIndex = 11;
             // 
             // Txt_Bairro
             // 
-            this.Txt_Bairro.Location = new System.Drawing.Point(121, 236);
+            this.Txt_Bairro.Location = new System.Drawing.Point(91, 192);
+            this.Txt_Bairro.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Bairro.Name = "Txt_Bairro";
-            this.Txt_Bairro.Size = new System.Drawing.Size(262, 22);
+            this.Txt_Bairro.Size = new System.Drawing.Size(198, 20);
             this.Txt_Bairro.TabIndex = 12;
             // 
             // Txt_Celular
             // 
-            this.Txt_Celular.Location = new System.Drawing.Point(121, 279);
+            this.Txt_Celular.Location = new System.Drawing.Point(91, 227);
+            this.Txt_Celular.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Celular.Name = "Txt_Celular";
-            this.Txt_Celular.Size = new System.Drawing.Size(164, 22);
+            this.Txt_Celular.Size = new System.Drawing.Size(124, 20);
             this.Txt_Celular.TabIndex = 14;
             // 
             // Btn_Nome
             // 
-            this.Btn_Nome.Location = new System.Drawing.Point(792, 107);
+            this.Btn_Nome.Location = new System.Drawing.Point(594, 87);
+            this.Btn_Nome.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Nome.Name = "Btn_Nome";
-            this.Btn_Nome.Size = new System.Drawing.Size(76, 32);
+            this.Btn_Nome.Size = new System.Drawing.Size(57, 26);
             this.Btn_Nome.TabIndex = 15;
             this.Btn_Nome.Text = "Nome ";
             this.Btn_Nome.UseVisualStyleBackColor = true;
+            this.Btn_Nome.Click += new System.EventHandler(this.Btn_Nome_Click);
             // 
             // Btn_Sobrenome
             // 
-            this.Btn_Sobrenome.Location = new System.Drawing.Point(792, 145);
+            this.Btn_Sobrenome.Location = new System.Drawing.Point(594, 118);
+            this.Btn_Sobrenome.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Sobrenome.Name = "Btn_Sobrenome";
-            this.Btn_Sobrenome.Size = new System.Drawing.Size(104, 31);
+            this.Btn_Sobrenome.Size = new System.Drawing.Size(78, 25);
             this.Btn_Sobrenome.TabIndex = 16;
             this.Btn_Sobrenome.Text = "Sobrenome";
             this.Btn_Sobrenome.UseVisualStyleBackColor = true;
+            this.Btn_Sobrenome.Click += new System.EventHandler(this.Btn_Sobrenome_Click);
             // 
             // Btn_Idade
             // 
-            this.Btn_Idade.Location = new System.Drawing.Point(792, 190);
+            this.Btn_Idade.Location = new System.Drawing.Point(594, 154);
+            this.Btn_Idade.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Idade.Name = "Btn_Idade";
-            this.Btn_Idade.Size = new System.Drawing.Size(76, 35);
+            this.Btn_Idade.Size = new System.Drawing.Size(57, 28);
             this.Btn_Idade.TabIndex = 17;
             this.Btn_Idade.Text = "Idade";
             this.Btn_Idade.UseVisualStyleBackColor = true;
             // 
             // Btn_Bairro
             // 
-            this.Btn_Bairro.Location = new System.Drawing.Point(792, 248);
+            this.Btn_Bairro.Location = new System.Drawing.Point(594, 202);
+            this.Btn_Bairro.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Bairro.Name = "Btn_Bairro";
-            this.Btn_Bairro.Size = new System.Drawing.Size(76, 33);
+            this.Btn_Bairro.Size = new System.Drawing.Size(57, 27);
             this.Btn_Bairro.TabIndex = 18;
             this.Btn_Bairro.Text = "Bairro";
             this.Btn_Bairro.UseVisualStyleBackColor = true;
             // 
             // Btn_Celular
             // 
-            this.Btn_Celular.Location = new System.Drawing.Point(792, 291);
+            this.Btn_Celular.Location = new System.Drawing.Point(594, 236);
+            this.Btn_Celular.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Celular.Name = "Btn_Celular";
-            this.Btn_Celular.Size = new System.Drawing.Size(76, 34);
+            this.Btn_Celular.Size = new System.Drawing.Size(57, 28);
             this.Btn_Celular.TabIndex = 19;
             this.Btn_Celular.Text = "Celular";
             this.Btn_Celular.UseVisualStyleBackColor = true;
             // 
             // Btn_email
             // 
-            this.Btn_email.Location = new System.Drawing.Point(792, 338);
+            this.Btn_email.Location = new System.Drawing.Point(594, 275);
+            this.Btn_email.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_email.Name = "Btn_email";
-            this.Btn_email.Size = new System.Drawing.Size(83, 30);
+            this.Btn_email.Size = new System.Drawing.Size(62, 24);
             this.Btn_email.TabIndex = 20;
             this.Btn_email.Text = "E-mail";
             this.Btn_email.UseVisualStyleBackColor = true;
             // 
             // Txt_email
             // 
-            this.Txt_email.Location = new System.Drawing.Point(121, 326);
+            this.Txt_email.Location = new System.Drawing.Point(91, 265);
+            this.Txt_email.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_email.Name = "Txt_email";
-            this.Txt_email.Size = new System.Drawing.Size(262, 22);
+            this.Txt_email.Size = new System.Drawing.Size(198, 20);
             this.Txt_email.TabIndex = 21;
             // 
             // Btn_Dcompleto
             // 
-            this.Btn_Dcompleto.Location = new System.Drawing.Point(636, 370);
+            this.Btn_Dcompleto.Location = new System.Drawing.Point(477, 301);
+            this.Btn_Dcompleto.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Dcompleto.Name = "Btn_Dcompleto";
-            this.Btn_Dcompleto.Size = new System.Drawing.Size(129, 70);
+            this.Btn_Dcompleto.Size = new System.Drawing.Size(97, 57);
             this.Btn_Dcompleto.TabIndex = 22;
             this.Btn_Dcompleto.Text = "Dados\r\nCompleto\r\n";
             this.Btn_Dcompleto.UseVisualStyleBackColor = true;
@@ -243,19 +266,23 @@
             this.Grp_Temas.Controls.Add(this.Rad_Tema3);
             this.Grp_Temas.Controls.Add(this.Rad_tema2);
             this.Grp_Temas.Controls.Add(this.Rad_tema1);
-            this.Grp_Temas.Location = new System.Drawing.Point(561, 12);
+            this.Grp_Temas.Location = new System.Drawing.Point(421, 10);
+            this.Grp_Temas.Margin = new System.Windows.Forms.Padding(2);
             this.Grp_Temas.Name = "Grp_Temas";
-            this.Grp_Temas.Size = new System.Drawing.Size(379, 72);
+            this.Grp_Temas.Padding = new System.Windows.Forms.Padding(2);
+            this.Grp_Temas.Size = new System.Drawing.Size(284, 58);
             this.Grp_Temas.TabIndex = 23;
             this.Grp_Temas.TabStop = false;
             this.Grp_Temas.Text = "Temas";
+            this.Grp_Temas.Enter += new System.EventHandler(this.Grp_Temas_Enter);
             // 
             // Rad_Tema3
             // 
             this.Rad_Tema3.AutoSize = true;
-            this.Rad_Tema3.Location = new System.Drawing.Point(251, 22);
+            this.Rad_Tema3.Location = new System.Drawing.Point(188, 18);
+            this.Rad_Tema3.Margin = new System.Windows.Forms.Padding(2);
             this.Rad_Tema3.Name = "Rad_Tema3";
-            this.Rad_Tema3.Size = new System.Drawing.Size(71, 20);
+            this.Rad_Tema3.Size = new System.Drawing.Size(58, 17);
             this.Rad_Tema3.TabIndex = 2;
             this.Rad_Tema3.TabStop = true;
             this.Rad_Tema3.Text = "Tema3";
@@ -265,9 +292,10 @@
             // Rad_tema2
             // 
             this.Rad_tema2.AutoSize = true;
-            this.Rad_tema2.Location = new System.Drawing.Point(133, 22);
+            this.Rad_tema2.Location = new System.Drawing.Point(100, 18);
+            this.Rad_tema2.Margin = new System.Windows.Forms.Padding(2);
             this.Rad_tema2.Name = "Rad_tema2";
-            this.Rad_tema2.Size = new System.Drawing.Size(71, 20);
+            this.Rad_tema2.Size = new System.Drawing.Size(58, 17);
             this.Rad_tema2.TabIndex = 1;
             this.Rad_tema2.TabStop = true;
             this.Rad_tema2.Text = "Tema2";
@@ -277,9 +305,10 @@
             // Rad_tema1
             // 
             this.Rad_tema1.AutoSize = true;
-            this.Rad_tema1.Location = new System.Drawing.Point(7, 22);
+            this.Rad_tema1.Location = new System.Drawing.Point(5, 18);
+            this.Rad_tema1.Margin = new System.Windows.Forms.Padding(2);
             this.Rad_tema1.Name = "Rad_tema1";
-            this.Rad_tema1.Size = new System.Drawing.Size(71, 20);
+            this.Rad_tema1.Size = new System.Drawing.Size(58, 17);
             this.Rad_tema1.TabIndex = 0;
             this.Rad_tema1.TabStop = true;
             this.Rad_tema1.Text = "Tema1";
@@ -288,27 +317,31 @@
             // 
             // Btn_Ativar
             // 
-            this.Btn_Ativar.Location = new System.Drawing.Point(12, 31);
+            this.Btn_Ativar.Location = new System.Drawing.Point(9, 25);
+            this.Btn_Ativar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Ativar.Name = "Btn_Ativar";
-            this.Btn_Ativar.Size = new System.Drawing.Size(75, 38);
+            this.Btn_Ativar.Size = new System.Drawing.Size(56, 31);
             this.Btn_Ativar.TabIndex = 24;
             this.Btn_Ativar.Text = "Ativar";
             this.Btn_Ativar.UseVisualStyleBackColor = true;
+            this.Btn_Ativar.Click += new System.EventHandler(this.Btn_Ativar_Click);
             // 
             // Btn_Desativar
             // 
-            this.Btn_Desativar.Location = new System.Drawing.Point(114, 31);
+            this.Btn_Desativar.Location = new System.Drawing.Point(86, 25);
+            this.Btn_Desativar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Desativar.Name = "Btn_Desativar";
-            this.Btn_Desativar.Size = new System.Drawing.Size(93, 38);
+            this.Btn_Desativar.Size = new System.Drawing.Size(70, 31);
             this.Btn_Desativar.TabIndex = 25;
             this.Btn_Desativar.Text = "Desativar";
             this.Btn_Desativar.UseVisualStyleBackColor = true;
             // 
             // Btn_Limpar
             // 
-            this.Btn_Limpar.Location = new System.Drawing.Point(225, 31);
+            this.Btn_Limpar.Location = new System.Drawing.Point(169, 25);
+            this.Btn_Limpar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Limpar.Name = "Btn_Limpar";
-            this.Btn_Limpar.Size = new System.Drawing.Size(75, 38);
+            this.Btn_Limpar.Size = new System.Drawing.Size(56, 31);
             this.Btn_Limpar.TabIndex = 26;
             this.Btn_Limpar.Text = "Limpar";
             this.Btn_Limpar.UseVisualStyleBackColor = true;
@@ -316,19 +349,20 @@
             // lbl_resultado
             // 
             this.lbl_resultado.AutoSize = true;
-            this.lbl_resultado.Location = new System.Drawing.Point(650, 135);
+            this.lbl_resultado.Location = new System.Drawing.Point(488, 110);
+            this.lbl_resultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_resultado.Name = "lbl_resultado";
-            this.lbl_resultado.Size = new System.Drawing.Size(69, 16);
+            this.lbl_resultado.Size = new System.Drawing.Size(55, 13);
             this.lbl_resultado.TabIndex = 27;
             this.lbl_resultado.Text = "Resultado";
             // 
             // Frm_Cadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cadastro1.Properties.Resources.cartoon_woman_wearing_vr_glasses;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(962, 514);
+            this.ClientSize = new System.Drawing.Size(722, 418);
             this.Controls.Add(this.lbl_resultado);
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Btn_Desativar);
@@ -357,6 +391,7 @@
             this.Controls.Add(this.Lbl_DadosP);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Frm_Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro";

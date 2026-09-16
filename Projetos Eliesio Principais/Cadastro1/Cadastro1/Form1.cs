@@ -31,5 +31,25 @@ namespace Cadastro1
         {
             BackgroundImage = Properties.Resources.imagen6;
         }
+
+        private void Grp_Temas_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Ativar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Nome_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = Txt_nome.Text; // faz o botão nome receber o texto que será escrito no campo de nome. 
+        }
+
+        private void Btn_Sobrenome_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = Txt_Sobrenome.Text; // faz o botão sobrenome receber o texto que será escrito no campo de sobrenome.
+        }
     }
 }
