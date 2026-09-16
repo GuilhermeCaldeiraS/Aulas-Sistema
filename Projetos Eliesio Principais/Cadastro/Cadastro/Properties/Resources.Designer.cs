@@ -59,45 +59,5 @@ namespace Cadastro.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap front_view_woman_eating_meat_burgers {
-            get {
-                object obj = ResourceManager.GetObject("front_view_woman_eating_meat_burgers", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Gemini_Generated_Image_wo8rj6wo8rj6wo8r {
-            get {
-                object obj = ResourceManager.GetObject("Gemini_Generated_Image_wo8rj6wo8rj6wo8r", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap gourmet_cheeseburger_with_melted_cheese_fresh_toppings {
-            get {
-                object obj = ResourceManager.GetObject("gourmet_cheeseburger_with_melted_cheese_fresh_toppings", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap slice_crispy_pizza_with_meat_cheese {
-            get {
-                object obj = ResourceManager.GetObject("slice_crispy_pizza_with_meat_cheese", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

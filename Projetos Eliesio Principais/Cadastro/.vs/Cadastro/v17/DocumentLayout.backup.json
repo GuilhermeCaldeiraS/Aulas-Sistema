@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Cadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3122AC9C-8AC3-4372-81EA-E23AF27AD0FC}|Cadastro\\Cadastro.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\cadastro\\cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3122AC9C-8AC3-4372-81EA-E23AF27AD0FC}|Cadastro\\Cadastro.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Cadastro\\cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3122AC9C-8AC3-4372-81EA-E23AF27AD0FC}|Cadastro\\Cadastro.csproj|solutionrelative:cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3122AC9C-8AC3-4372-81EA-E23AF27AD0FC}|Cadastro\\Cadastro.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\cadastro\\cadastro\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3122AC9C-8AC3-4372-81EA-E23AF27AD0FC}|Cadastro\\Cadastro.csproj|solutionrelative:cadastro\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Cadastro\\Cadastro\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Cadastro\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Cadastro\\Cadastro\\Form1.Designer.cs",
+              "RelativeToolTip": "Cadastro\\Form1.Designer.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAawPEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T22:59:13.274Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
