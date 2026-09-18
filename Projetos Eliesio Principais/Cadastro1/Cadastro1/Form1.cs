@@ -51,5 +51,37 @@ namespace Cadastro1
         {
             lbl_resultado.Text = Txt_Sobrenome.Text; // faz o botão sobrenome receber o texto que será escrito no campo de sobrenome.
         }
+
+        private void Btn_Idade_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text += Txt_Idade.Text; 
+        }
+
+        private void Btn_Bairro_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = Txt_Bairro.Text;
+        }
+
+        private void Lbl_idade_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Celular_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = Txt_Celular.Text; 
+        }
+
+        private void Btn_email_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = Txt_email.Text;
+        }
+
+        private void Btn_Dcompleto_Click(object sender, EventArgs e)
+        {
+            lbl_resultado.Text = Txt_nome.Text + " " + Txt_Sobrenome.Text+ "\n" + Txt_Idade.Text + "\n" + 
+                Txt_Celular.Text + "\n" + Txt_Bairro.Text + "\n" + Txt_email.Text;
+            // + Concatenar (Juntar) "\n" Quebra de linha (descer).
+        }
     }
 }
