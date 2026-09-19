@@ -39,6 +39,32 @@ namespace Cadastro1
 
         private void Btn_Ativar_Click(object sender, EventArgs e)
         {
+            Btn_Desativar.Enabled = true; // ativando o desativar 
+            Btn_Limpar.Enabled = true; // ativando o limpar
+            btn_Enviar.Enabled = true; // ativando o enviar
+            Btn_Bairro.Enabled = true; // ativando o bairro
+            Btn_Celular.Enabled = true; // ativando o celular
+            Btn_Dcompleto.Enabled = true;   //ativando os dados completos   
+            Btn_email.Enabled = true; // ativando o email
+            Btn_Idade.Enabled = true; // ativando o idade
+            Btn_Nome.Enabled = true; // ativando o nome
+            Btn_Sobrenome.Enabled = true; // ativando o sobrenome
+            lbl_resultado.Enabled = true; // ativando a lbl resultado 
+            Lbl_Bairro.Enabled = true; // ativando a lbl bairro 
+            Lbl_Celular.Enabled=true; // ativando a lbl celular
+            Lbl_DadosP.Enabled = true; // ativando a lbl dadosP
+            Lbl_email.Enabled = true; // ativando a lbl email
+            Lbl_idade.Enabled = true; // ativando a lbl idade  
+            Lbl_Nome.Enabled = true; // ativando a lbl nome
+            Lbl_Sobrenome.Enabled=true; // ativando a lbl sobrenome
+            lbl_confirmaD.Enabled = true; // ativando a lbl confirmacção de dados
+            Grp_Temas.Enabled = true; // ativando o grupo de troca de temas
+            Txt_nome.Enabled = true; // ativando o txt nome
+            Txt_Sobrenome.Enabled = true; // ativando o txt sobrenome
+            Txt_Idade.Enabled = true; // ativando o txt idade
+            Txt_email.Enabled = true; // ativando o txt email
+            Txt_Celular.Enabled = true; // ativando o txt celular
+            Txt_Bairro.Enabled=true; // ativando o txt bairro
 
         }
 
@@ -82,6 +108,51 @@ namespace Cadastro1
             lbl_resultado.Text = Txt_nome.Text + " " + Txt_Sobrenome.Text+ "\n" + Txt_Idade.Text + "\n" + 
                 Txt_Celular.Text + "\n" + Txt_Bairro.Text + "\n" + Txt_email.Text;
             // + Concatenar (Juntar) "\n" Quebra de linha (descer).
+        }
+
+        private void lbl_resultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frm_Cadastro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Limpar_Click(object sender, EventArgs e)
+        {
+            Txt_nome.Clear();  Txt_Sobrenome.Clear();  Txt_Idade.Clear();  Txt_Celular.Clear();  Txt_Bairro.Clear();  Txt_email.Clear();
+        }
+
+        private void Btn_Desativar_Click(object sender, EventArgs e)
+        {
+            Btn_Desativar.Enabled = false; 
+            Btn_Limpar.Enabled = false;//desaativando o limpar
+            btn_Enviar.Enabled = false; // desaativando o enviar
+            Btn_Bairro.Enabled = false; // desaativando o bairro
+            Btn_Celular.Enabled = false; // desaativando o celular
+            Btn_Dcompleto.Enabled = false;   //desaativando os dados completos   
+            Btn_email.Enabled = false; // desaativando o email
+            Btn_Idade.Enabled = false; // desaativando o idade
+            Btn_Nome.Enabled = false; // desaativando o nome
+            Btn_Sobrenome.Enabled = false; // desaativando o sobrenome
+            lbl_resultado.Enabled = false; // desaativando a lbl resultado 
+            Lbl_Bairro.Enabled = false; // desaativando a lbl bairro 
+            Lbl_Celular.Enabled = false; // desaativando a lbl celular
+            Lbl_DadosP.Enabled = false; // desaativando a lbl dadosP
+            Lbl_email.Enabled = false; // desaativando a lbl email
+            Lbl_idade.Enabled = false; // desaativando a lbl idade  
+            Lbl_Nome.Enabled = false; // desaativando a lbl nome
+            Lbl_Sobrenome.Enabled = false; // desaativando a lbl sobrenome
+            lbl_confirmaD.Enabled = false; // desaativando a lbl confirmacção de dados
+            Grp_Temas.Enabled = false; // desaativando o grupo de troca de temas
+            Txt_nome.Enabled = false; // ativando o txt nome
+            Txt_Sobrenome.Enabled = false; // ativando o txt sobrenome
+            Txt_Idade.Enabled = false; // ativando o txt idade
+            Txt_email.Enabled = false; // ativando o txt email
+            Txt_Celular.Enabled = false; // ativando o txt celular
+            Txt_Bairro.Enabled = false; // ativando o txt bairro
         }
     }
 }
