@@ -49,6 +49,8 @@ namespace Cadastro1
             Btn_Idade.Enabled = true; // ativando o idade
             Btn_Nome.Enabled = true; // ativando o nome
             Btn_Sobrenome.Enabled = true; // ativando o sobrenome
+
+
             lbl_resultado.Enabled = true; // ativando a lbl resultado 
             Lbl_Bairro.Enabled = true; // ativando a lbl bairro 
             Lbl_Celular.Enabled=true; // ativando a lbl celular
@@ -58,6 +60,9 @@ namespace Cadastro1
             Lbl_Nome.Enabled = true; // ativando a lbl nome
             Lbl_Sobrenome.Enabled=true; // ativando a lbl sobrenome
             lbl_confirmaD.Enabled = true; // ativando a lbl confirmacção de dados
+
+
+
             Grp_Temas.Enabled = true; // ativando o grupo de troca de temas
             Txt_nome.Enabled = true; // ativando o txt nome
             Txt_Sobrenome.Enabled = true; // ativando o txt sobrenome
@@ -80,12 +85,12 @@ namespace Cadastro1
 
         private void Btn_Idade_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text += Txt_Idade.Text; 
+            lbl_resultado.Text += Txt_Idade.Text;   // faz o botão idade receber o texto que será escrito no campo de idade.
         }
 
         private void Btn_Bairro_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = Txt_Bairro.Text;
+            lbl_resultado.Text = Txt_Bairro.Text; // faz o botão bairro receber o texto que será escrito no campo de bairro.
         }
 
         private void Lbl_idade_Click(object sender, EventArgs e)
@@ -95,12 +100,12 @@ namespace Cadastro1
 
         private void Btn_Celular_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = Txt_Celular.Text; 
+            lbl_resultado.Text = Txt_Celular.Text;  // faz o botão celular receber o texto que será escrito no campo de celular.
         }
 
         private void Btn_email_Click(object sender, EventArgs e)
         {
-            lbl_resultado.Text = Txt_email.Text;
+            lbl_resultado.Text = Txt_email.Text; // faz o botão email receber o texto que será escrito no campo de email.
         }
 
         private void Btn_Dcompleto_Click(object sender, EventArgs e)
@@ -122,6 +127,7 @@ namespace Cadastro1
 
         private void Btn_Limpar_Click(object sender, EventArgs e)
         {
+            lbl_resultado.Text = ""; // limpando o resultado
             Txt_nome.Clear();  Txt_Sobrenome.Clear();  Txt_Idade.Clear();  Txt_Celular.Clear();  Txt_Bairro.Clear();  Txt_email.Clear();
         }
 
@@ -153,6 +159,11 @@ namespace Cadastro1
             Txt_email.Enabled = false; // ativando o txt email
             Txt_Celular.Enabled = false; // ativando o txt celular
             Txt_Bairro.Enabled = false; // ativando o txt bairro
+        }
+
+        private void Txt_nome_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

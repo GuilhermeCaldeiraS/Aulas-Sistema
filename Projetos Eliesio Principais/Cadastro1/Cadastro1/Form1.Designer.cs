@@ -183,6 +183,7 @@
             this.Txt_nome.Name = "Txt_nome";
             this.Txt_nome.Size = new System.Drawing.Size(172, 20);
             this.Txt_nome.TabIndex = 9;
+            this.Txt_nome.TextChanged += new System.EventHandler(this.Txt_nome_TextChanged);
             // 
             // Txt_Sobrenome
             // 
