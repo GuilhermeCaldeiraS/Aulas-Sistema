@@ -32,6 +32,9 @@
             this.rad_Primeiro = new System.Windows.Forms.RadioButton();
             this.txt_Primeiro = new System.Windows.Forms.TextBox();
             this.lbl_informacao = new System.Windows.Forms.Label();
+            this.rad_segundo = new System.Windows.Forms.RadioButton();
+            this.rad_terceiro = new System.Windows.Forms.RadioButton();
+            this.rad_quarto = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Primeiro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +46,7 @@
             this.pic_Primeiro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Primeiro.TabIndex = 0;
             this.pic_Primeiro.TabStop = false;
+            this.pic_Primeiro.Click += new System.EventHandler(this.pic_Primeiro_Click);
             // 
             // rad_Primeiro
             // 
@@ -75,11 +79,52 @@
             this.lbl_informacao.TabIndex = 3;
             this.lbl_informacao.Text = "Informações:";
             // 
+            // rad_segundo
+            // 
+            this.rad_segundo.AutoSize = true;
+            this.rad_segundo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_segundo.Location = new System.Drawing.Point(127, 185);
+            this.rad_segundo.Name = "rad_segundo";
+            this.rad_segundo.Size = new System.Drawing.Size(113, 28);
+            this.rad_segundo.TabIndex = 4;
+            this.rad_segundo.TabStop = true;
+            this.rad_segundo.Text = "Segundo";
+            this.rad_segundo.UseVisualStyleBackColor = true;
+            this.rad_segundo.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // rad_terceiro
+            // 
+            this.rad_terceiro.AutoSize = true;
+            this.rad_terceiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_terceiro.Location = new System.Drawing.Point(127, 231);
+            this.rad_terceiro.Name = "rad_terceiro";
+            this.rad_terceiro.Size = new System.Drawing.Size(107, 28);
+            this.rad_terceiro.TabIndex = 5;
+            this.rad_terceiro.TabStop = true;
+            this.rad_terceiro.Text = "Terceiro";
+            this.rad_terceiro.UseVisualStyleBackColor = true;
+            this.rad_terceiro.CheckedChanged += new System.EventHandler(this.rad_terceiro_CheckedChanged);
+            // 
+            // rad_quarto
+            // 
+            this.rad_quarto.AutoSize = true;
+            this.rad_quarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_quarto.Location = new System.Drawing.Point(127, 269);
+            this.rad_quarto.Name = "rad_quarto";
+            this.rad_quarto.Size = new System.Drawing.Size(91, 28);
+            this.rad_quarto.TabIndex = 6;
+            this.rad_quarto.TabStop = true;
+            this.rad_quarto.Text = "Quarto";
+            this.rad_quarto.UseVisualStyleBackColor = true;
+            // 
             // Frm_ParaleloEstações
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1039, 625);
+            this.Controls.Add(this.rad_quarto);
+            this.Controls.Add(this.rad_terceiro);
+            this.Controls.Add(this.rad_segundo);
             this.Controls.Add(this.lbl_informacao);
             this.Controls.Add(this.txt_Primeiro);
             this.Controls.Add(this.rad_Primeiro);
@@ -99,6 +144,9 @@
         private System.Windows.Forms.RadioButton rad_Primeiro;
         private System.Windows.Forms.TextBox txt_Primeiro;
         private System.Windows.Forms.Label lbl_informacao;
+        private System.Windows.Forms.RadioButton rad_segundo;
+        private System.Windows.Forms.RadioButton rad_terceiro;
+        private System.Windows.Forms.RadioButton rad_quarto;
     }
 }
 

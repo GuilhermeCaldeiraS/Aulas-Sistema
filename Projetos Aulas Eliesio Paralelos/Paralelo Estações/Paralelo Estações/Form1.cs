@@ -27,5 +27,22 @@ namespace Paralelo_Estações
         {
 
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            pic_Primeiro.Image = Properties.Resources.red_dead; //buscando a imagem para a primeira opção no pic
+            txt_Primeiro.Text = "Red Dead Redemption 2"; // aqui estamos colocando um texto para aparecer apos clicar no button
+        }
+
+        private void pic_Primeiro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rad_terceiro_CheckedChanged(object sender, EventArgs e)
+        {
+            pic_Primeiro.Image = Properties.Resources.resident_evil; //buscando a imagem para a primeira opção no pic
+            txt_Primeiro.Text = "Resident Evil 4"; // aqui estamos colocando um texto para aparecer apos clicar no button
+        }
     }
 }
