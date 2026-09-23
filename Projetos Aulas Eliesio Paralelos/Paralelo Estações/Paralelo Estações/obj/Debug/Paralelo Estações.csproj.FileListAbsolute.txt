@@ -1,0 +1,11 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\bin\Debug\Paralelo Estações.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\bin\Debug\Paralelo Estações.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\bin\Debug\Paralelo Estações.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo Estações.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo_Estações.Frm_ParaleloEstações.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo_Estações.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo Estações.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo Estações.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo Estações.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo Estações.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Paralelo Estações\Paralelo Estações\obj\Debug\Paralelo Estações.exe.config
