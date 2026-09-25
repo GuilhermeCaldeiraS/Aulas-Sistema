@@ -1,0 +1,11 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\bin\Debug\Mensagem em C#.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\bin\Debug\Mensagem em C#.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\bin\Debug\Mensagem em C#.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem em C#.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem_em_C_.frm_mensagem.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem_em_C_.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem em C#.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem em C#.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem em C#.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem em C#.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Mensagem em C#\Mensagem em C#\obj\Debug\Mensagem em C#.exe.config
