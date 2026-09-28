@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_mensagem));
             this.grp_mensagens = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_simounao = new System.Windows.Forms.Button();
-            this.btn_simples = new System.Windows.Forms.Button();
-            this.btn_comtitulo = new System.Windows.Forms.Button();
-            this.btn_iconecritico = new System.Windows.Forms.Button();
             this.btn_alertaC = new System.Windows.Forms.Button();
+            this.btn_iconecritico = new System.Windows.Forms.Button();
+            this.btn_comtitulo = new System.Windows.Forms.Button();
+            this.btn_simples = new System.Windows.Forms.Button();
+            this.btn_simounao = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.grp_mensagens.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,14 +58,53 @@
             this.grp_mensagens.Text = "MENSAGENS EM C#";
             this.grp_mensagens.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label1
+            // btn_alertaC
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(280, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "TIPO DE MENSAGENS";
+            this.btn_alertaC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_alertaC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_alertaC.Location = new System.Drawing.Point(678, 121);
+            this.btn_alertaC.Name = "btn_alertaC";
+            this.btn_alertaC.Size = new System.Drawing.Size(118, 74);
+            this.btn_alertaC.TabIndex = 5;
+            this.btn_alertaC.Text = "ALERTA COM S/N E CANCELAR";
+            this.btn_alertaC.UseVisualStyleBackColor = true;
+            this.btn_alertaC.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btn_iconecritico
+            // 
+            this.btn_iconecritico.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_iconecritico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_iconecritico.Location = new System.Drawing.Point(511, 28);
+            this.btn_iconecritico.Name = "btn_iconecritico";
+            this.btn_iconecritico.Size = new System.Drawing.Size(104, 72);
+            this.btn_iconecritico.TabIndex = 4;
+            this.btn_iconecritico.Text = "ALERTA COM ICONE CRITICO";
+            this.btn_iconecritico.UseVisualStyleBackColor = true;
+            this.btn_iconecritico.Click += new System.EventHandler(this.btn_iconecritico_Click);
+            // 
+            // btn_comtitulo
+            // 
+            this.btn_comtitulo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_comtitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_comtitulo.Location = new System.Drawing.Point(352, 121);
+            this.btn_comtitulo.Name = "btn_comtitulo";
+            this.btn_comtitulo.Size = new System.Drawing.Size(125, 74);
+            this.btn_comtitulo.TabIndex = 3;
+            this.btn_comtitulo.Text = "ALERTA SIMPLES COM TITULO";
+            this.btn_comtitulo.UseVisualStyleBackColor = true;
+            this.btn_comtitulo.Click += new System.EventHandler(this.btn_comtitulo_Click);
+            // 
+            // btn_simples
+            // 
+            this.btn_simples.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_simples.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_simples.Location = new System.Drawing.Point(186, 44);
+            this.btn_simples.Name = "btn_simples";
+            this.btn_simples.Size = new System.Drawing.Size(136, 46);
+            this.btn_simples.TabIndex = 2;
+            this.btn_simples.Text = "ALERTA SIMPLES";
+            this.btn_simples.UseVisualStyleBackColor = true;
+            this.btn_simples.Click += new System.EventHandler(this.btn_simples_Click);
             // 
             // btn_simounao
             // 
@@ -79,50 +118,14 @@
             this.btn_simounao.UseVisualStyleBackColor = true;
             this.btn_simounao.Click += new System.EventHandler(this.btn_simounao_Click);
             // 
-            // btn_simples
+            // label1
             // 
-            this.btn_simples.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_simples.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_simples.Location = new System.Drawing.Point(186, 44);
-            this.btn_simples.Name = "btn_simples";
-            this.btn_simples.Size = new System.Drawing.Size(136, 46);
-            this.btn_simples.TabIndex = 2;
-            this.btn_simples.Text = "ALERTA SIMPLES";
-            this.btn_simples.UseVisualStyleBackColor = true;
-            // 
-            // btn_comtitulo
-            // 
-            this.btn_comtitulo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_comtitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_comtitulo.Location = new System.Drawing.Point(352, 121);
-            this.btn_comtitulo.Name = "btn_comtitulo";
-            this.btn_comtitulo.Size = new System.Drawing.Size(125, 74);
-            this.btn_comtitulo.TabIndex = 3;
-            this.btn_comtitulo.Text = "ALERTA SIMPLES COM TITULO";
-            this.btn_comtitulo.UseVisualStyleBackColor = true;
-            // 
-            // btn_iconecritico
-            // 
-            this.btn_iconecritico.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_iconecritico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_iconecritico.Location = new System.Drawing.Point(511, 28);
-            this.btn_iconecritico.Name = "btn_iconecritico";
-            this.btn_iconecritico.Size = new System.Drawing.Size(104, 72);
-            this.btn_iconecritico.TabIndex = 4;
-            this.btn_iconecritico.Text = "ALERTA COM ICONE CRITICO";
-            this.btn_iconecritico.UseVisualStyleBackColor = true;
-            // 
-            // btn_alertaC
-            // 
-            this.btn_alertaC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_alertaC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_alertaC.Location = new System.Drawing.Point(678, 121);
-            this.btn_alertaC.Name = "btn_alertaC";
-            this.btn_alertaC.Size = new System.Drawing.Size(118, 74);
-            this.btn_alertaC.TabIndex = 5;
-            this.btn_alertaC.Text = "ALERTA COM S/N E CANCELAR";
-            this.btn_alertaC.UseVisualStyleBackColor = true;
-            this.btn_alertaC.Click += new System.EventHandler(this.button5_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(280, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(227, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "TIPO DE MENSAGENS";
             // 
             // frm_mensagem
             // 

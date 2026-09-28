@@ -24,7 +24,7 @@ namespace Mensagem_em_C_
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show ("OLÁ SOU GUILHERME, ALUNO DE C# DA DOM BOSCO" , "EU TENHO UM ICONE" , MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
         }
 
         private void btn_simounao_Click(object sender, EventArgs e)
@@ -41,6 +41,21 @@ namespace Mensagem_em_C_
                 MessageBox.Show("CLICOU EM NÃO");
             }
                
+        }
+
+        private void btn_simples_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("VOCÊ CLICOU NO BOTÃO!!");
+        }
+
+        private void btn_iconecritico_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("OUVIU O SOM DO WINDOWS ?", "SOU O ALERTA CRITICO", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+        }
+
+        private void btn_comtitulo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("MENSAGEM COM TEXTO", "ESSE É O TITULO DA MENSAGEM");
         }
     }
 }
