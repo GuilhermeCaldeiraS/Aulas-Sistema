@@ -1,0 +1,11 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\bin\Debug\PROJETOS OPERADORAS.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\bin\Debug\PROJETOS OPERADORAS.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\bin\Debug\PROJETOS OPERADORAS.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS OPERADORAS.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS_OPERADORAS.frm_op.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS_OPERADORAS.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS OPERADORAS.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS OPERADORAS.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS OPERADORAS.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS OPERADORAS.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETOS OPERADORAS\PROJETOS OPERADORAS\obj\Debug\PROJETOS OPERADORAS.exe.config
