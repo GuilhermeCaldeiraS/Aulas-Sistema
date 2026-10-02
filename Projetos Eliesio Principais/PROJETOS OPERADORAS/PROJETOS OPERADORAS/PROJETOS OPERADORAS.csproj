@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\A Muppet Family Christmas GIF.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\claro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivo.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

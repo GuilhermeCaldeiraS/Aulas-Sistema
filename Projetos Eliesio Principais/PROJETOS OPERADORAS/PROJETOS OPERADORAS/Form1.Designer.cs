@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_op));
             this.lbl_dadosR = new System.Windows.Forms.Label();
             this.grp_op = new System.Windows.Forms.GroupBox();
-            this.rad_Vivo = new System.Windows.Forms.RadioButton();
-            this.rad_Claro = new System.Windows.Forms.RadioButton();
-            this.rad_Tim = new System.Windows.Forms.RadioButton();
             this.rad_Oi = new System.Windows.Forms.RadioButton();
+            this.rad_Tim = new System.Windows.Forms.RadioButton();
+            this.rad_Claro = new System.Windows.Forms.RadioButton();
+            this.rad_Vivo = new System.Windows.Forms.RadioButton();
             this.txt_Nome = new System.Windows.Forms.TextBox();
             this.txt_opSelec = new System.Windows.Forms.TextBox();
             this.txt_DDD = new System.Windows.Forms.TextBox();
@@ -47,14 +47,14 @@
             this.lbl_NumeroDoC = new System.Windows.Forms.Label();
             this.lbl_ValorDaRec = new System.Windows.Forms.Label();
             this.lbl_SelecioneoV = new System.Windows.Forms.Label();
-            this.btn_Recarga20 = new System.Windows.Forms.Button();
-            this.btn_Recarga30 = new System.Windows.Forms.Button();
-            this.btn_Recarga35 = new System.Windows.Forms.Button();
-            this.btn_Recarga40 = new System.Windows.Forms.Button();
-            this.btn_Recarga45 = new System.Windows.Forms.Button();
-            this.btn_Recarga50 = new System.Windows.Forms.Button();
-            this.btn_Recarga55 = new System.Windows.Forms.Button();
-            this.btn_Recarga100 = new System.Windows.Forms.Button();
+            this.btn_1 = new System.Windows.Forms.Button();
+            this.btn_2 = new System.Windows.Forms.Button();
+            this.btn_3 = new System.Windows.Forms.Button();
+            this.btn_4 = new System.Windows.Forms.Button();
+            this.btn_5 = new System.Windows.Forms.Button();
+            this.btn_6 = new System.Windows.Forms.Button();
+            this.btn_7 = new System.Windows.Forms.Button();
+            this.btn_8 = new System.Windows.Forms.Button();
             this.lbl_Validade = new System.Windows.Forms.Label();
             this.lbl_Validade2 = new System.Windows.Forms.Label();
             this.lbl_Validade3 = new System.Windows.Forms.Label();
@@ -95,27 +95,16 @@
             this.grp_op.Text = "OPERADORAS";
             this.grp_op.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // rad_Vivo
+            // rad_Oi
             // 
-            this.rad_Vivo.AutoSize = true;
-            this.rad_Vivo.Location = new System.Drawing.Point(24, 51);
-            this.rad_Vivo.Name = "rad_Vivo";
-            this.rad_Vivo.Size = new System.Drawing.Size(69, 28);
-            this.rad_Vivo.TabIndex = 0;
-            this.rad_Vivo.Text = "Vivo";
-            this.rad_Vivo.UseVisualStyleBackColor = true;
-            this.rad_Vivo.CheckedChanged += new System.EventHandler(this.rad_Vivo_CheckedChanged);
-            // 
-            // rad_Claro
-            // 
-            this.rad_Claro.AutoSize = true;
-            this.rad_Claro.Location = new System.Drawing.Point(24, 86);
-            this.rad_Claro.Name = "rad_Claro";
-            this.rad_Claro.Size = new System.Drawing.Size(77, 28);
-            this.rad_Claro.TabIndex = 1;
-            this.rad_Claro.Text = "Claro";
-            this.rad_Claro.UseVisualStyleBackColor = true;
-            this.rad_Claro.CheckedChanged += new System.EventHandler(this.rad_Claro_CheckedChanged);
+            this.rad_Oi.AutoSize = true;
+            this.rad_Oi.Location = new System.Drawing.Point(24, 156);
+            this.rad_Oi.Name = "rad_Oi";
+            this.rad_Oi.Size = new System.Drawing.Size(49, 28);
+            this.rad_Oi.TabIndex = 3;
+            this.rad_Oi.Text = "Oi";
+            this.rad_Oi.UseVisualStyleBackColor = true;
+            this.rad_Oi.CheckedChanged += new System.EventHandler(this.rad_Oi_CheckedChanged);
             // 
             // rad_Tim
             // 
@@ -128,16 +117,27 @@
             this.rad_Tim.UseVisualStyleBackColor = true;
             this.rad_Tim.CheckedChanged += new System.EventHandler(this.rad_Tim_CheckedChanged);
             // 
-            // rad_Oi
+            // rad_Claro
             // 
-            this.rad_Oi.AutoSize = true;
-            this.rad_Oi.Location = new System.Drawing.Point(24, 156);
-            this.rad_Oi.Name = "rad_Oi";
-            this.rad_Oi.Size = new System.Drawing.Size(49, 28);
-            this.rad_Oi.TabIndex = 3;
-            this.rad_Oi.Text = "Oi";
-            this.rad_Oi.UseVisualStyleBackColor = true;
-            this.rad_Oi.CheckedChanged += new System.EventHandler(this.rad_Oi_CheckedChanged);
+            this.rad_Claro.AutoSize = true;
+            this.rad_Claro.Location = new System.Drawing.Point(24, 86);
+            this.rad_Claro.Name = "rad_Claro";
+            this.rad_Claro.Size = new System.Drawing.Size(77, 28);
+            this.rad_Claro.TabIndex = 1;
+            this.rad_Claro.Text = "Claro";
+            this.rad_Claro.UseVisualStyleBackColor = true;
+            this.rad_Claro.CheckedChanged += new System.EventHandler(this.rad_Claro_CheckedChanged);
+            // 
+            // rad_Vivo
+            // 
+            this.rad_Vivo.AutoSize = true;
+            this.rad_Vivo.Location = new System.Drawing.Point(24, 51);
+            this.rad_Vivo.Name = "rad_Vivo";
+            this.rad_Vivo.Size = new System.Drawing.Size(69, 28);
+            this.rad_Vivo.TabIndex = 0;
+            this.rad_Vivo.Text = "Vivo";
+            this.rad_Vivo.UseVisualStyleBackColor = true;
+            this.rad_Vivo.CheckedChanged += new System.EventHandler(this.rad_Vivo_CheckedChanged);
             // 
             // txt_Nome
             // 
@@ -258,109 +258,109 @@
             this.lbl_SelecioneoV.TabIndex = 13;
             this.lbl_SelecioneoV.Text = "Selecione o Valor da Recarga";
             // 
-            // btn_Recarga20
+            // btn_1
             // 
-            this.btn_Recarga20.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga20.Enabled = false;
-            this.btn_Recarga20.Location = new System.Drawing.Point(408, 371);
-            this.btn_Recarga20.Name = "btn_Recarga20";
-            this.btn_Recarga20.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga20.TabIndex = 14;
-            this.btn_Recarga20.Text = "R$";
-            this.btn_Recarga20.UseVisualStyleBackColor = false;
-            this.btn_Recarga20.Click += new System.EventHandler(this.btn_Recarga20_Click);
+            this.btn_1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_1.Enabled = false;
+            this.btn_1.Location = new System.Drawing.Point(408, 371);
+            this.btn_1.Name = "btn_1";
+            this.btn_1.Size = new System.Drawing.Size(75, 74);
+            this.btn_1.TabIndex = 14;
+            this.btn_1.Text = "R$";
+            this.btn_1.UseVisualStyleBackColor = false;
+            this.btn_1.Click += new System.EventHandler(this.btn_Recarga20_Click);
             // 
-            // btn_Recarga30
+            // btn_2
             // 
-            this.btn_Recarga30.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga30.Enabled = false;
-            this.btn_Recarga30.Location = new System.Drawing.Point(489, 371);
-            this.btn_Recarga30.Name = "btn_Recarga30";
-            this.btn_Recarga30.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga30.TabIndex = 15;
-            this.btn_Recarga30.Text = "R$ ";
-            this.btn_Recarga30.UseVisualStyleBackColor = false;
-            this.btn_Recarga30.Click += new System.EventHandler(this.btn_Recarga30_Click);
+            this.btn_2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_2.Enabled = false;
+            this.btn_2.Location = new System.Drawing.Point(489, 371);
+            this.btn_2.Name = "btn_2";
+            this.btn_2.Size = new System.Drawing.Size(75, 74);
+            this.btn_2.TabIndex = 15;
+            this.btn_2.Text = "R$ ";
+            this.btn_2.UseVisualStyleBackColor = false;
+            this.btn_2.Click += new System.EventHandler(this.btn_Recarga30_Click);
             // 
-            // btn_Recarga35
+            // btn_3
             // 
-            this.btn_Recarga35.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga35.Enabled = false;
-            this.btn_Recarga35.Location = new System.Drawing.Point(598, 371);
-            this.btn_Recarga35.Name = "btn_Recarga35";
-            this.btn_Recarga35.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga35.TabIndex = 16;
-            this.btn_Recarga35.Text = "R$ ";
-            this.btn_Recarga35.UseVisualStyleBackColor = false;
-            this.btn_Recarga35.Click += new System.EventHandler(this.btn_Recarga35_Click);
+            this.btn_3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_3.Enabled = false;
+            this.btn_3.Location = new System.Drawing.Point(598, 371);
+            this.btn_3.Name = "btn_3";
+            this.btn_3.Size = new System.Drawing.Size(75, 74);
+            this.btn_3.TabIndex = 16;
+            this.btn_3.Text = "R$ ";
+            this.btn_3.UseVisualStyleBackColor = false;
+            this.btn_3.Click += new System.EventHandler(this.btn_Recarga35_Click);
             // 
-            // btn_Recarga40
+            // btn_4
             // 
-            this.btn_Recarga40.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga40.Enabled = false;
-            this.btn_Recarga40.Location = new System.Drawing.Point(686, 371);
-            this.btn_Recarga40.Name = "btn_Recarga40";
-            this.btn_Recarga40.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga40.TabIndex = 17;
-            this.btn_Recarga40.Text = "R$ ";
-            this.btn_Recarga40.UseVisualStyleBackColor = false;
-            this.btn_Recarga40.Click += new System.EventHandler(this.btn_Recarga40_Click);
+            this.btn_4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_4.Enabled = false;
+            this.btn_4.Location = new System.Drawing.Point(686, 371);
+            this.btn_4.Name = "btn_4";
+            this.btn_4.Size = new System.Drawing.Size(75, 74);
+            this.btn_4.TabIndex = 17;
+            this.btn_4.Text = "R$ ";
+            this.btn_4.UseVisualStyleBackColor = false;
+            this.btn_4.Click += new System.EventHandler(this.btn_Recarga40_Click);
             // 
-            // btn_Recarga45
+            // btn_5
             // 
-            this.btn_Recarga45.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga45.Enabled = false;
-            this.btn_Recarga45.Location = new System.Drawing.Point(408, 479);
-            this.btn_Recarga45.Name = "btn_Recarga45";
-            this.btn_Recarga45.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga45.TabIndex = 18;
-            this.btn_Recarga45.Text = "R$ ";
-            this.btn_Recarga45.UseVisualStyleBackColor = false;
-            this.btn_Recarga45.Click += new System.EventHandler(this.button5_Click);
+            this.btn_5.BackColor = System.Drawing.Color.Transparent;
+            this.btn_5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_5.Enabled = false;
+            this.btn_5.Location = new System.Drawing.Point(408, 479);
+            this.btn_5.Name = "btn_5";
+            this.btn_5.Size = new System.Drawing.Size(75, 74);
+            this.btn_5.TabIndex = 18;
+            this.btn_5.Text = "R$ ";
+            this.btn_5.UseVisualStyleBackColor = false;
+            this.btn_5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // btn_Recarga50
+            // btn_6
             // 
-            this.btn_Recarga50.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga50.Enabled = false;
-            this.btn_Recarga50.Location = new System.Drawing.Point(489, 479);
-            this.btn_Recarga50.Name = "btn_Recarga50";
-            this.btn_Recarga50.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga50.TabIndex = 19;
-            this.btn_Recarga50.Text = "R$ ";
-            this.btn_Recarga50.UseVisualStyleBackColor = false;
-            this.btn_Recarga50.Click += new System.EventHandler(this.btn_Recarga50_Click);
+            this.btn_6.BackColor = System.Drawing.Color.Transparent;
+            this.btn_6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_6.Enabled = false;
+            this.btn_6.Location = new System.Drawing.Point(489, 479);
+            this.btn_6.Name = "btn_6";
+            this.btn_6.Size = new System.Drawing.Size(75, 74);
+            this.btn_6.TabIndex = 19;
+            this.btn_6.Text = "R$ ";
+            this.btn_6.UseVisualStyleBackColor = false;
+            this.btn_6.Click += new System.EventHandler(this.btn_Recarga50_Click);
             // 
-            // btn_Recarga55
+            // btn_7
             // 
-            this.btn_Recarga55.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga55.Enabled = false;
-            this.btn_Recarga55.Location = new System.Drawing.Point(598, 479);
-            this.btn_Recarga55.Name = "btn_Recarga55";
-            this.btn_Recarga55.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga55.TabIndex = 20;
-            this.btn_Recarga55.Text = "R$ ";
-            this.btn_Recarga55.UseVisualStyleBackColor = false;
-            this.btn_Recarga55.Click += new System.EventHandler(this.btn_Recarga55_Click);
+            this.btn_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_7.Enabled = false;
+            this.btn_7.Location = new System.Drawing.Point(598, 479);
+            this.btn_7.Name = "btn_7";
+            this.btn_7.Size = new System.Drawing.Size(75, 74);
+            this.btn_7.TabIndex = 20;
+            this.btn_7.Text = "R$ ";
+            this.btn_7.UseVisualStyleBackColor = false;
+            this.btn_7.Click += new System.EventHandler(this.btn_Recarga55_Click);
             // 
-            // btn_Recarga100
+            // btn_8
             // 
-            this.btn_Recarga100.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Recarga100.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Recarga100.Enabled = false;
-            this.btn_Recarga100.Location = new System.Drawing.Point(686, 479);
-            this.btn_Recarga100.Name = "btn_Recarga100";
-            this.btn_Recarga100.Size = new System.Drawing.Size(75, 74);
-            this.btn_Recarga100.TabIndex = 21;
-            this.btn_Recarga100.Text = "R$ ";
-            this.btn_Recarga100.UseVisualStyleBackColor = false;
-            this.btn_Recarga100.Click += new System.EventHandler(this.button8_Click);
+            this.btn_8.BackColor = System.Drawing.Color.Transparent;
+            this.btn_8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_8.Enabled = false;
+            this.btn_8.Location = new System.Drawing.Point(686, 479);
+            this.btn_8.Name = "btn_8";
+            this.btn_8.Size = new System.Drawing.Size(75, 74);
+            this.btn_8.TabIndex = 21;
+            this.btn_8.Text = "R$ ";
+            this.btn_8.UseVisualStyleBackColor = false;
+            this.btn_8.Click += new System.EventHandler(this.button8_Click);
             // 
             // lbl_Validade
             // 
@@ -476,14 +476,14 @@
             this.Controls.Add(this.lbl_Validade3);
             this.Controls.Add(this.lbl_Validade2);
             this.Controls.Add(this.lbl_Validade);
-            this.Controls.Add(this.btn_Recarga100);
-            this.Controls.Add(this.btn_Recarga55);
-            this.Controls.Add(this.btn_Recarga50);
-            this.Controls.Add(this.btn_Recarga45);
-            this.Controls.Add(this.btn_Recarga40);
-            this.Controls.Add(this.btn_Recarga35);
-            this.Controls.Add(this.btn_Recarga30);
-            this.Controls.Add(this.btn_Recarga20);
+            this.Controls.Add(this.btn_8);
+            this.Controls.Add(this.btn_7);
+            this.Controls.Add(this.btn_6);
+            this.Controls.Add(this.btn_5);
+            this.Controls.Add(this.btn_4);
+            this.Controls.Add(this.btn_3);
+            this.Controls.Add(this.btn_2);
+            this.Controls.Add(this.btn_1);
             this.Controls.Add(this.lbl_SelecioneoV);
             this.Controls.Add(this.lbl_ValorDaRec);
             this.Controls.Add(this.lbl_NumeroDoC);
@@ -532,14 +532,14 @@
         private System.Windows.Forms.Label lbl_NumeroDoC;
         private System.Windows.Forms.Label lbl_ValorDaRec;
         private System.Windows.Forms.Label lbl_SelecioneoV;
-        private System.Windows.Forms.Button btn_Recarga20;
-        private System.Windows.Forms.Button btn_Recarga30;
-        private System.Windows.Forms.Button btn_Recarga35;
-        private System.Windows.Forms.Button btn_Recarga40;
-        private System.Windows.Forms.Button btn_Recarga45;
-        private System.Windows.Forms.Button btn_Recarga50;
-        private System.Windows.Forms.Button btn_Recarga55;
-        private System.Windows.Forms.Button btn_Recarga100;
+        private System.Windows.Forms.Button btn_1;
+        private System.Windows.Forms.Button btn_2;
+        private System.Windows.Forms.Button btn_3;
+        private System.Windows.Forms.Button btn_4;
+        private System.Windows.Forms.Button btn_5;
+        private System.Windows.Forms.Button btn_6;
+        private System.Windows.Forms.Button btn_7;
+        private System.Windows.Forms.Button btn_8;
         private System.Windows.Forms.Label lbl_Validade;
         private System.Windows.Forms.Label lbl_Validade2;
         private System.Windows.Forms.Label lbl_Validade3;
