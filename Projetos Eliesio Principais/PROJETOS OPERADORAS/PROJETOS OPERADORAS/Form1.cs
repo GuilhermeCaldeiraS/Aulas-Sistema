@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Tracing;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -39,36 +40,64 @@ namespace PROJETOS_OPERADORAS
 
         private void btn_Recarga20_Click(object sender, EventArgs e)
         {
-            
+            txt_Valor.Enabled = false;
         }
 
         private void btn_Recarga30_Click(object sender, EventArgs e)
         {
-            
+            txt_Valor.Enabled = false;
         }
 
         private void btn_Recarga35_Click(object sender, EventArgs e)
         {
-           
+            txt_Valor.Enabled = false;
         }
 
         private void btn_Recarga40_Click(object sender, EventArgs e)
         {
-            
+            txt_Valor.Enabled = false;
         }
 
         private void btn_Recarga55_Click(object sender, EventArgs e)
         {
-           
+            txt_Valor.Enabled = false;
         }
 
         private void btn_Recarga50_Click(object sender, EventArgs e)
         {
-           
+            txt_Valor.Enabled = false;
         }
 
         private void rad_Vivo_CheckedChanged(object sender, EventArgs e)
-        {
+        {   
+            
+            //estilizando o botão
+            btn_1.ForeColor = Color.Violet;
+            
+            btn_1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_2.ForeColor = Color.Violet;
+            
+            btn_2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_3.ForeColor = Color.Violet;
+            
+            btn_3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_4.ForeColor = Color.Violet;
+            
+            btn_4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_5.ForeColor = Color.Violet;
+            
+            btn_5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_6.ForeColor = Color.Violet;
+           
+            btn_6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_7.ForeColor = Color.Violet;
+            
+            btn_7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_8.ForeColor = Color.Violet;
+            
+            btn_8.FlatAppearance.MouseOverBackColor = Color.White;
+
+
 
 
 
@@ -91,32 +120,7 @@ namespace PROJETOS_OPERADORAS
             lbl_ValorDaRec.ForeColor = Color.White;
 
             
-            btn_1.Text = "12 REAIS";
-            lbl_Validade.Text = "30 DIAS";
-
-            btn_2.Text = "15 REAIS";
-            lbl_Validade2.Text = "30 DIAS";
-
-
-            btn_3.Text = "20 REAIS";
-            lbl_Validade3.Text = "30 DIAS";
-
-            btn_4.Text = "30 REAIS";
-            lbl_Validade4.Text = "30 DIAS";
-
-            btn_5.Text = "35 REAIS";
-            lbl_Validade5.Text = "90 DIAS";
-
-            btn_6.Text = "40 REAIS";
-            lbl_Validade6.Text = "90 DIAS";
-
-            btn_7.Text = "100 REAIS";
-            lbl_Validade7.Text = "180 DIAS";
-
-            btn_8.Text = "200 REAIS";
-            lbl_Validade8.Text = "365 DIAS";
-
-
+   
 
 
             BackColor = Color.Purple;
@@ -126,8 +130,28 @@ namespace PROJETOS_OPERADORAS
 
             //atribuição
             txt_opSelec.Text = "VIVO";
-            txt_Valor.Text = btn_1.Text;
-            txt_Valor.Text = btn_2.Text;
+
+
+            //TEXTO DO BOTÃO
+            btn_1.Text = "R$ 12,00";
+            btn_2.Text = "R$ 15,00";
+            btn_3.Text = "R$ 20,00";
+            btn_4.Text = "R$ 30,00";
+            btn_5.Text = "R$ 35,00";
+            btn_6.Text = "R$ 40,00";
+            btn_7.Text = "R$ 100,00";
+            btn_8.Text = "R$ 200,00";
+
+
+            //Evento click Botão = Atriubuir o valor da recarga ao textbox quando o botão for clicado
+            btn_1.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 12,00";
+            btn_2.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 15,00";
+            btn_3.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 20,00";
+            btn_4.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 30,00";
+            btn_5.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 35,00";
+            btn_6.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 40,00";
+            btn_7.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 100,00";
+            btn_8.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 200,00";
 
             lbl_BemVindo.Enabled = true;
             lbl_Nome.Enabled=true;
@@ -152,7 +176,7 @@ namespace PROJETOS_OPERADORAS
             txt_DDD.Enabled = true;
             txt_NumCell.Enabled = true;
             txt_opSelec.Enabled = false;
-            txt_Valor.Enabled = false;
+            txt_Valor.Enabled = true;
             txt_Nome.Enabled = true;
 
             btn_1.Enabled = true;
@@ -171,6 +195,60 @@ namespace PROJETOS_OPERADORAS
         private void rad_Claro_CheckedChanged(object sender, EventArgs e)
         {
 
+            //estilizando o botão
+            btn_1.ForeColor = Color.Black;
+       
+            btn_1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_2.ForeColor = Color.Black;
+           
+            btn_2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_3.ForeColor = Color.Black;
+            
+            btn_3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_4.ForeColor = Color.Black;
+           
+            btn_4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_5.ForeColor = Color.Black;
+            
+            btn_5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_6.ForeColor = Color.Black;
+           
+            btn_6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_7.ForeColor = Color.Black;
+            
+            btn_7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_8.ForeColor = Color.Black;
+           
+            btn_8.FlatAppearance.MouseOverBackColor = Color.White;
+
+
+            //TEXTO DO BOTÃO
+            btn_1.Text = "R$ 12,00";
+            btn_2.Text = "R$ 15,00";
+            btn_3.Text = "R$ 20,00";
+            btn_4.Text = "R$ 25,00";
+            btn_5.Text = "R$ 30,00";
+            btn_6.Text = "R$ 35,00";
+            btn_7.Text = "R$ 50,00";
+            btn_8.Text = "R$ 100,00";
+
+
+            //limpando os caracteres apos clicar em outra operadora
+            txt_DDD.Text = "";
+            txt_Nome.Text = string.Empty;
+            txt_NumCell.Text = string.Empty;
+            txt_Valor.Text = string.Empty;
+
+
+            //Evento click Botão = Atriubuir o valor da recarga ao textbox quando o botão for clicado
+            btn_1.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 12,00";
+            btn_2.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 15,00";
+            btn_3.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 20,00";
+            btn_4.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 25,00";
+            btn_5.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 30,00";
+            btn_6.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 35,00";
+            btn_7.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 50,00";
+            btn_8.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 100,00";
 
             //formatação cor
             lbl_BemVindo.ForeColor = Color.Black;
@@ -237,6 +315,60 @@ namespace PROJETOS_OPERADORAS
         private void rad_Tim_CheckedChanged(object sender, EventArgs e)
         {
 
+            //estilizando o botão
+            btn_1.ForeColor = Color.Black;
+         
+            btn_1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_2.ForeColor = Color.Black;
+          
+            btn_2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_3.ForeColor = Color.Black;
+            
+            btn_3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_4.ForeColor = Color.Black;
+            
+            btn_4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_5.ForeColor = Color.Black;
+           
+            btn_5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_6.ForeColor = Color.Black;
+         
+            btn_6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_7.ForeColor = Color.Black;
+       
+            btn_7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_8.ForeColor = Color.Black;
+         
+            btn_8.FlatAppearance.MouseOverBackColor = Color.White;
+
+            //TEXTO DO BOTÃO
+            btn_1.Text = "R$ 10,00";
+            btn_2.Text = "R$ 15,00";
+            btn_3.Text = "R$ 20,00";
+            btn_4.Text = "R$ 30,00";
+            btn_5.Text = "R$ 40,00";
+            btn_6.Text = "R$ 50,00";
+            btn_7.Text = "R$ 60,00";
+            btn_8.Text = "R$ 100,00";
+
+            //limpando os caracteres apos clicar em outra operadora
+            txt_DDD.Text = "";
+            txt_Nome.Text = string.Empty;
+            txt_NumCell.Text = string.Empty;
+            txt_Valor.Text = string.Empty;
+
+
+            //Evento click Botão = Atriubuir o valor da recarga ao textbox quando o botão for clicado
+            btn_1.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 10,00";
+            btn_2.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 15,00";
+            btn_3.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 20,00";
+            btn_4.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 30,00";
+            btn_5.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 40,00";
+            btn_6.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 50,00";
+            btn_7.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 60,00";
+            btn_8.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 100,00";
+
+
             BackColor = Color.Blue;
 
             pic_telefone.Image = Properties.Resources.tim;
@@ -283,6 +415,69 @@ namespace PROJETOS_OPERADORAS
 
         private void rad_Oi_CheckedChanged(object sender, EventArgs e)
         {
+
+            //estilizando o botão
+            btn_1.ForeColor = Color.Gold;
+          
+            btn_1.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_2.ForeColor = Color.Gold;
+            
+            btn_2.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_3.ForeColor = Color.Gold;
+           
+            btn_3.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_4.ForeColor = Color.Gold;
+            
+            btn_4.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_5.ForeColor = Color.Gold;
+           
+            btn_5.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_6.ForeColor = Color.Gold;
+            
+            btn_6.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_7.ForeColor = Color.Gold;
+            
+            btn_7.FlatAppearance.MouseOverBackColor = Color.White;
+
+            btn_8.ForeColor = Color.Gold;
+         
+            btn_8.FlatAppearance.MouseOverBackColor = Color.White;
+
+
+            //TEXTO DO BOTÃO
+            btn_1.Text = "R$ 10,00";
+            btn_2.Text = "R$ 15,00";
+            btn_3.Text = "R$ 20,00";
+            btn_4.Text = "R$ 25,00";
+            btn_5.Text = "R$ 30,00";
+            btn_6.Text = "R$ 35,00";
+            btn_7.Text = "R$ 40,00";
+            btn_8.Text = "R$ 50,00";
+
+
+            //limpando os caracteres apos clicar em outra operadora
+            txt_DDD.Text = "";
+            txt_Nome.Text = string.Empty;
+            txt_NumCell.Text = string.Empty;
+            txt_Valor.Text = string.Empty;
+
+
+            //Evento click Botão = Atriubuir o valor da recarga ao textbox quando o botão for clicado
+            btn_1.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 10,00";
+            btn_2.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 15,00";
+            btn_3.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 20,00";
+            btn_4.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 25,00";
+            btn_5.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 30,00";
+            btn_6.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 35,00";
+            btn_7.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 40,00";
+            btn_8.Click += (senderBtn, eventArgs) => txt_Valor.Text = "R$ 50,00";
+
             BackColor = Color.DarkOrange;
 
             pic_telefone.Image = Properties.Resources.oi;

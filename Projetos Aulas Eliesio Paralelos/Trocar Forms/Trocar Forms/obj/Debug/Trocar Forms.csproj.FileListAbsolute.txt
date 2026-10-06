@@ -1,0 +1,12 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\bin\Debug\Trocar Forms.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\bin\Debug\Trocar Forms.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\bin\Debug\Trocar Forms.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar Forms.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar_Forms.frm_primeiro.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar_Forms.frm_segundo.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar_Forms.frm_terceiro.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar_Forms.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar Forms.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar Forms.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar Forms.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Trocar Forms\Trocar Forms\obj\Debug\Trocar Forms.pdb

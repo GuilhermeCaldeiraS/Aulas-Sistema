@@ -98,9 +98,10 @@
             // rad_Oi
             // 
             this.rad_Oi.AutoSize = true;
+            this.rad_Oi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rad_Oi.Location = new System.Drawing.Point(24, 156);
             this.rad_Oi.Name = "rad_Oi";
-            this.rad_Oi.Size = new System.Drawing.Size(49, 28);
+            this.rad_Oi.Size = new System.Drawing.Size(48, 28);
             this.rad_Oi.TabIndex = 3;
             this.rad_Oi.Text = "Oi";
             this.rad_Oi.UseVisualStyleBackColor = true;
@@ -109,9 +110,10 @@
             // rad_Tim
             // 
             this.rad_Tim.AutoSize = true;
+            this.rad_Tim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rad_Tim.Location = new System.Drawing.Point(24, 121);
             this.rad_Tim.Name = "rad_Tim";
-            this.rad_Tim.Size = new System.Drawing.Size(63, 28);
+            this.rad_Tim.Size = new System.Drawing.Size(62, 28);
             this.rad_Tim.TabIndex = 2;
             this.rad_Tim.Text = "Tim";
             this.rad_Tim.UseVisualStyleBackColor = true;
@@ -120,9 +122,10 @@
             // rad_Claro
             // 
             this.rad_Claro.AutoSize = true;
+            this.rad_Claro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rad_Claro.Location = new System.Drawing.Point(24, 86);
             this.rad_Claro.Name = "rad_Claro";
-            this.rad_Claro.Size = new System.Drawing.Size(77, 28);
+            this.rad_Claro.Size = new System.Drawing.Size(76, 28);
             this.rad_Claro.TabIndex = 1;
             this.rad_Claro.Text = "Claro";
             this.rad_Claro.UseVisualStyleBackColor = true;
@@ -131,9 +134,10 @@
             // rad_Vivo
             // 
             this.rad_Vivo.AutoSize = true;
-            this.rad_Vivo.Location = new System.Drawing.Point(24, 51);
+            this.rad_Vivo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rad_Vivo.Location = new System.Drawing.Point(24, 52);
             this.rad_Vivo.Name = "rad_Vivo";
-            this.rad_Vivo.Size = new System.Drawing.Size(69, 28);
+            this.rad_Vivo.Size = new System.Drawing.Size(68, 28);
             this.rad_Vivo.TabIndex = 0;
             this.rad_Vivo.Text = "Vivo";
             this.rad_Vivo.UseVisualStyleBackColor = true;
@@ -263,6 +267,7 @@
             this.btn_1.BackColor = System.Drawing.Color.Transparent;
             this.btn_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_1.Enabled = false;
+            this.btn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_1.Location = new System.Drawing.Point(408, 371);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(75, 74);
@@ -276,6 +281,7 @@
             this.btn_2.BackColor = System.Drawing.Color.Transparent;
             this.btn_2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_2.Enabled = false;
+            this.btn_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_2.Location = new System.Drawing.Point(489, 371);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(75, 74);
@@ -289,6 +295,7 @@
             this.btn_3.BackColor = System.Drawing.Color.Transparent;
             this.btn_3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_3.Enabled = false;
+            this.btn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_3.Location = new System.Drawing.Point(598, 371);
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(75, 74);
@@ -302,6 +309,7 @@
             this.btn_4.BackColor = System.Drawing.Color.Transparent;
             this.btn_4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_4.Enabled = false;
+            this.btn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_4.Location = new System.Drawing.Point(686, 371);
             this.btn_4.Name = "btn_4";
             this.btn_4.Size = new System.Drawing.Size(75, 74);
@@ -315,6 +323,7 @@
             this.btn_5.BackColor = System.Drawing.Color.Transparent;
             this.btn_5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_5.Enabled = false;
+            this.btn_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_5.Location = new System.Drawing.Point(408, 479);
             this.btn_5.Name = "btn_5";
             this.btn_5.Size = new System.Drawing.Size(75, 74);
@@ -328,6 +337,7 @@
             this.btn_6.BackColor = System.Drawing.Color.Transparent;
             this.btn_6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_6.Enabled = false;
+            this.btn_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_6.Location = new System.Drawing.Point(489, 479);
             this.btn_6.Name = "btn_6";
             this.btn_6.Size = new System.Drawing.Size(75, 74);
@@ -341,6 +351,7 @@
             this.btn_7.BackColor = System.Drawing.Color.Transparent;
             this.btn_7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_7.Enabled = false;
+            this.btn_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_7.Location = new System.Drawing.Point(598, 479);
             this.btn_7.Name = "btn_7";
             this.btn_7.Size = new System.Drawing.Size(75, 74);
@@ -354,6 +365,7 @@
             this.btn_8.BackColor = System.Drawing.Color.Transparent;
             this.btn_8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_8.Enabled = false;
+            this.btn_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_8.Location = new System.Drawing.Point(686, 479);
             this.btn_8.Name = "btn_8";
             this.btn_8.Size = new System.Drawing.Size(75, 74);
@@ -377,6 +389,7 @@
             // 
             this.lbl_Validade2.AutoSize = true;
             this.lbl_Validade2.Enabled = false;
+            this.lbl_Validade2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Validade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade2.Location = new System.Drawing.Point(486, 448);
             this.lbl_Validade2.Name = "lbl_Validade2";
@@ -388,6 +401,7 @@
             // 
             this.lbl_Validade3.AutoSize = true;
             this.lbl_Validade3.Enabled = false;
+            this.lbl_Validade3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Validade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade3.Location = new System.Drawing.Point(595, 452);
             this.lbl_Validade3.Name = "lbl_Validade3";
@@ -399,6 +413,7 @@
             // 
             this.lbl_Validade4.AutoSize = true;
             this.lbl_Validade4.Enabled = false;
+            this.lbl_Validade4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Validade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade4.Location = new System.Drawing.Point(683, 452);
             this.lbl_Validade4.Name = "lbl_Validade4";
