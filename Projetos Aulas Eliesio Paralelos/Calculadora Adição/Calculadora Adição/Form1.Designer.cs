@@ -41,6 +41,7 @@
             this.btn_multiplicacao = new System.Windows.Forms.Button();
             this.txt_primeiroN = new System.Windows.Forms.TextBox();
             this.txt_segundoN = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_mat1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_mat2)).BeginInit();
             this.SuspendLayout();
@@ -168,11 +169,22 @@
             this.txt_segundoN.Size = new System.Drawing.Size(124, 20);
             this.txt_segundoN.TabIndex = 11;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(38, 325);
+            this.textBox1.MaxLength = 4;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(164, 26);
+            this.textBox1.TabIndex = 12;
+            // 
             // frm_calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 481);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txt_segundoN);
             this.Controls.Add(this.txt_primeiroN);
             this.Controls.Add(this.btn_multiplicacao);
@@ -210,6 +222,7 @@
         private System.Windows.Forms.Button btn_multiplicacao;
         private System.Windows.Forms.TextBox txt_primeiroN;
         private System.Windows.Forms.TextBox txt_segundoN;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
