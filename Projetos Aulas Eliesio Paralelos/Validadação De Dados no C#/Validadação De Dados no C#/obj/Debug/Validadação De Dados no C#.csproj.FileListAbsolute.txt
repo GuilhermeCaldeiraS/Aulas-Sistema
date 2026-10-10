@@ -8,3 +8,4 @@ C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Validadação
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Validadação De Dados no C#\Validadação De Dados no C#\obj\Debug\Validadação De Dados no C#.csproj.CoreCompileInputs.cache
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Validadação De Dados no C#\Validadação De Dados no C#\obj\Debug\Validadação De Dados no C#.exe
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Validadação De Dados no C#\Validadação De Dados no C#\obj\Debug\Validadação De Dados no C#.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Validadação De Dados no C#\Validadação De Dados no C#\obj\Debug\Validadação De Dados no C#.exe.config

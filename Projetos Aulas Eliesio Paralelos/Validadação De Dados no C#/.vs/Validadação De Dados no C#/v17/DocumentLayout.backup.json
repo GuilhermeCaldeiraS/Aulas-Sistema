@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Aulas Eliesio Paralelos\\Validada\u00E7\u00E3o De Dados no C#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BFECEA5-3734-43A8-836D-4BF05EC8DEBF}|Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos aulas eliesio paralelos\\validada\u00E7\u00E3o de dados no c#\\validada\u00E7\u00E3o de dados no c#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFECEA5-3734-43A8-836D-4BF05EC8DEBF}|Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#.csproj|solutionrelative:validada\u00E7\u00E3o de dados no c#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BFECEA5-3734-43A8-836D-4BF05EC8DEBF}|Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos aulas eliesio paralelos\\validada\u00E7\u00E3o de dados no c#\\validada\u00E7\u00E3o de dados no c#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6BFECEA5-3734-43A8-836D-4BF05EC8DEBF}|Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#.csproj|solutionrelative:validada\u00E7\u00E3o de dados no c#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Aulas Eliesio Paralelos\\Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#\\Form1.cs",
+              "RelativeDocumentMoniker": "Validada\u00E7\u00E3o De Dados no C#\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Aulas Eliesio Paralelos\\Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#\\Form1.cs",
+              "RelativeToolTip": "Validada\u00E7\u00E3o De Dados no C#\\Form1.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwFoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T23:18:59.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Aulas Eliesio Paralelos\\Validada\u00E7\u00E3o De Dados no C#\\Validada\u00E7\u00E3o De Dados no C#\\Form1.cs",
               "RelativeDocumentMoniker": "Validada\u00E7\u00E3o De Dados no C#\\Form1.cs",
