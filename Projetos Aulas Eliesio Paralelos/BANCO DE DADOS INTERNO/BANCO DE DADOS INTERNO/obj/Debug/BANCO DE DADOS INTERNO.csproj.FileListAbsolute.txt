@@ -1,0 +1,11 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\bin\Debug\BANCO DE DADOS INTERNO.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\bin\Debug\BANCO DE DADOS INTERNO.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\bin\Debug\BANCO DE DADOS INTERNO.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO DE DADOS INTERNO.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO_DE_DADOS_INTERNO.Form1.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO_DE_DADOS_INTERNO.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO DE DADOS INTERNO.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO DE DADOS INTERNO.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO DE DADOS INTERNO.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO DE DADOS INTERNO.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\BANCO DE DADOS INTERNO\BANCO DE DADOS INTERNO\obj\Debug\BANCO DE DADOS INTERNO.exe.config
