@@ -2,10 +2,11 @@ C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGe
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\bin\Debug\Projeto CarrinhoGeek.exe
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\bin\Debug\Projeto CarrinhoGeek.pdb
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.csproj.AssemblyReference.cache
-C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.Form1.resources
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.Properties.Resources.resources
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.csproj.GenerateResource.cache
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.csproj.CoreCompileInputs.cache
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.exe
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.pdb
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.form_ps5.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.frm_promocoes.resources

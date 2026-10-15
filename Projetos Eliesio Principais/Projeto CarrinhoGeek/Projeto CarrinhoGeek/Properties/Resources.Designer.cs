@@ -117,6 +117,16 @@ namespace Projeto_CarrinhoGeek.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap playstaion_wallpaper {
+            get {
+                object obj = ResourceManager.GetObject("playstaion_wallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Shopping_Tienda_GIF_by_Tottus_Perú {
             get {
                 object obj = ResourceManager.GetObject("Shopping_Tienda_GIF_by_Tottus_Perú", resourceCulture);

@@ -16,7 +16,7 @@ namespace Projeto_CarrinhoGeek
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_promoções());
+            Application.Run(new frm_promocoes());
         }
     }
 }
