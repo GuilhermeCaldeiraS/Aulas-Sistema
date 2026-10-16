@@ -1,0 +1,15 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\bin\Debug\Proejto Video.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\bin\Debug\Proejto Video.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\bin\Debug\Proejto Video.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\bin\Debug\Interop.WMPLib.dll
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto Video.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Interop.WMPLib.dll
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto Video.csproj.ResolveComReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto_Video.frm_video.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto_Video.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto Video.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto Video.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto Video.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Aulas Eliesio Paralelos\Proejto Video\Proejto Video\obj\Debug\Proejto Video.pdb
