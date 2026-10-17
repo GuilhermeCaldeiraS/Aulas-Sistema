@@ -84,10 +84,30 @@ namespace Projeto_CarrinhoGeek.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap havit {
+            get {
+                object obj = ResourceManager.GetObject("havit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap headset_gamer_sem_fio_havit_fuxi_h3_7_1_surround_driver_40mm_bluetooth_e_usb_preto_fuxi_h3_black_1706888697_gg {
             get {
                 object obj = ResourceManager.GetObject("headset_gamer_sem_fio_havit_fuxi_h3_7_1_surround_driver_40mm_bluetooth_e_usb_pret" +
                         "o_fuxi_h3_black_1706888697_gg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -127,6 +147,16 @@ namespace Projeto_CarrinhoGeek.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rise_mdoe {
+            get {
+                object obj = ResourceManager.GetObject("rise_mdoe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Shopping_Tienda_GIF_by_Tottus_Perú {
             get {
                 object obj = ResourceManager.GetObject("Shopping_Tienda_GIF_by_Tottus_Perú", resourceCulture);
@@ -140,6 +170,16 @@ namespace Projeto_CarrinhoGeek.Properties {
         internal static System.Drawing.Bitmap Terrenos_GIF_by_Terreno_Livre {
             get {
                 object obj = ResourceManager.GetObject("Terrenos_GIF_by_Terreno_Livre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xpg {
+            get {
+                object obj = ResourceManager.GetObject("xpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

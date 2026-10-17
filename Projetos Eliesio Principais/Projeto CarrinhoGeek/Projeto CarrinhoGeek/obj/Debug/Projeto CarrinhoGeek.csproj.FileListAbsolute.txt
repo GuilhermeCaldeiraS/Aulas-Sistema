@@ -10,3 +10,7 @@ C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGe
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto CarrinhoGeek.exe.config
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.form_ps5.resources
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.frm_promocoes.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.frm_xpg.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.frm_havit.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.frm_rx7600.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\obj\Debug\Projeto_CarrinhoGeek.frm_memoria.resources

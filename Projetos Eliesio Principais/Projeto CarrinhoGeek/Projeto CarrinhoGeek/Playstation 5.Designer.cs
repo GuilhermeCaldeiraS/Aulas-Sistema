@@ -45,6 +45,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(265, 267);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // txt_ps5
             // 
@@ -69,6 +70,7 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "CONSOLE PLAYSTATION 5 ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_voltar
             // 
@@ -95,6 +97,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form_ps5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Playstation_5";
             this.Load += new System.EventHandler(this.form_ps5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

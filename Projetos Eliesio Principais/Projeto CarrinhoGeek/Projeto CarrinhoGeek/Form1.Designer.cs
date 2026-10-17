@@ -59,7 +59,7 @@
             // 
             // btn_finalizarP
             // 
-            this.btn_finalizarP.Location = new System.Drawing.Point(628, 374);
+            this.btn_finalizarP.Location = new System.Drawing.Point(628, 375);
             this.btn_finalizarP.Name = "btn_finalizarP";
             this.btn_finalizarP.Size = new System.Drawing.Size(175, 34);
             this.btn_finalizarP.TabIndex = 6;
@@ -117,6 +117,7 @@
             this.lbl_fonte.TabIndex = 12;
             this.lbl_fonte.Text = "FONTE XPG CORE 850W R$ 530,00";
             this.lbl_fonte.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_fonte.Click += new System.EventHandler(this.lbl_fonte_Click);
             // 
             // lbl_headset
             // 
@@ -137,7 +138,7 @@
             this.lbl_memoria.Name = "lbl_memoria";
             this.lbl_memoria.Size = new System.Drawing.Size(158, 109);
             this.lbl_memoria.TabIndex = 14;
-            this.lbl_memoria.Text = "MEMÓRIA RAM RISE MDOE 16GB 3200MHZ R$ 912,00";
+            this.lbl_memoria.Text = "MEMÓRIA RAM RISE MODE 16GB 3200MHZ R$ 912,00";
             this.lbl_memoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_7600
@@ -169,6 +170,7 @@
             this.btn_maisInfo2.TabIndex = 17;
             this.btn_maisInfo2.Text = "MAIS INFORMAÇÕES";
             this.btn_maisInfo2.UseVisualStyleBackColor = true;
+            this.btn_maisInfo2.Click += new System.EventHandler(this.btn_maisInfo2_Click);
             // 
             // btn_maisInfo3
             // 
@@ -178,6 +180,7 @@
             this.btn_maisInfo3.TabIndex = 18;
             this.btn_maisInfo3.Text = "MAIS INFORMAÇÕES";
             this.btn_maisInfo3.UseVisualStyleBackColor = true;
+            this.btn_maisInfo3.Click += new System.EventHandler(this.btn_maisInfo3_Click);
             // 
             // btn_maisInfo4
             // 
@@ -187,6 +190,7 @@
             this.btn_maisInfo4.TabIndex = 19;
             this.btn_maisInfo4.Text = "MAIS INFORMAÇÕES";
             this.btn_maisInfo4.UseVisualStyleBackColor = true;
+            this.btn_maisInfo4.Click += new System.EventHandler(this.btn_maisInfo4_Click);
             // 
             // btn_maisInfo5
             // 
@@ -196,6 +200,7 @@
             this.btn_maisInfo5.TabIndex = 20;
             this.btn_maisInfo5.Text = "MAIS INFORMAÇÕES";
             this.btn_maisInfo5.UseVisualStyleBackColor = true;
+            this.btn_maisInfo5.Click += new System.EventHandler(this.btn_maisInfo5_Click);
             // 
             // pic_memoriar
             // 
@@ -206,6 +211,7 @@
             this.pic_memoriar.Size = new System.Drawing.Size(156, 115);
             this.pic_memoriar.TabIndex = 5;
             this.pic_memoriar.TabStop = false;
+            this.pic_memoriar.Click += new System.EventHandler(this.pic_memoriar_Click);
             // 
             // pic_fonte
             // 
@@ -216,6 +222,7 @@
             this.pic_fonte.Size = new System.Drawing.Size(156, 115);
             this.pic_fonte.TabIndex = 4;
             this.pic_fonte.TabStop = false;
+            this.pic_fonte.Click += new System.EventHandler(this.pic_fonte_Click);
             // 
             // pic_7600
             // 
@@ -226,6 +233,7 @@
             this.pic_7600.Size = new System.Drawing.Size(152, 115);
             this.pic_7600.TabIndex = 3;
             this.pic_7600.TabStop = false;
+            this.pic_7600.Click += new System.EventHandler(this.pic_7600_Click);
             // 
             // pic_headset
             // 
@@ -236,6 +244,7 @@
             this.pic_headset.Size = new System.Drawing.Size(156, 115);
             this.pic_headset.TabIndex = 2;
             this.pic_headset.TabStop = false;
+            this.pic_headset.Click += new System.EventHandler(this.pic_headset_Click);
             // 
             // pic_ps5
             // 
@@ -252,6 +261,7 @@
             // 
             this.pic_gif.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.Terrenos_GIF_by_Terreno_Livre;
             this.pic_gif.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pic_gif.Image = global::Projeto_CarrinhoGeek.Properties.Resources.Shopping_Tienda_GIF_by_Tottus_Perú;
             this.pic_gif.Location = new System.Drawing.Point(861, 501);
             this.pic_gif.Name = "pic_gif";
             this.pic_gif.Size = new System.Drawing.Size(165, 116);
