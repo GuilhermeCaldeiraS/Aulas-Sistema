@@ -25,21 +25,30 @@ namespace Projeto_CarrinhoGeek
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+          
         }
 
         private void btn_finalizarP_Click(object sender, EventArgs e)
         {
-            File.WriteAllText(@"C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\Pedidos\" +   ".txt", txt_carrinho.Text);
+            File.WriteAllText(@"C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\Pedidos\" +   "Pedido.txt", txt_carrinho.Text);
             
             txt_carrinho.Clear();
             
-            MessageBox.Show("Pedido realizado");
+            MessageBox.Show("Pedido realizado", "Sucesso!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void pic_ps5_Click(object sender, EventArgs e)
         {
-            txt_carrinho.Text = "PLAYSTATION 5 825GB R$3.500,00";
+
+            //AppendText() adiciona o texto sem apagar o anterior.
+
+            // Environment.NewLine faz a quebra de linha.
+
+            //Multiline = True permite exibir os produtos em várias linhas.
+
+            txt_carrinho.AppendText("PLAYSTATION 5 825GB - R$ 3.500,00"
+            + Environment.NewLine);
+
         }
 
         private void btn_maisInfo_Click(object sender, EventArgs e)
@@ -64,7 +73,15 @@ namespace Projeto_CarrinhoGeek
 
         private void pic_fonte_Click(object sender, EventArgs e)
         {
-            txt_carrinho.Text = "FONTE XPG CORE 850W R$530,00";
+
+            //AppendText() adiciona o texto sem apagar o anterior.
+
+            // Environment.NewLine faz a quebra de linha.
+
+            //Multiline = True permite exibir os produtos em várias linhas.
+
+            txt_carrinho.AppendText("FONTE XPG CORE 850W R$530,00"
+            + Environment.NewLine);
         }
 
         private void btn_maisInfo2_Click(object sender, EventArgs e)
@@ -91,17 +108,24 @@ namespace Projeto_CarrinhoGeek
 
         private void pic_headset_Click(object sender, EventArgs e)
         {
-            txt_carrinho.Text = "HEADSET S/F HAVIT FUXI H3 R$190,00";
+            //AppendText() adiciona o texto sem apagar o anterior.
+
+            // Environment.NewLine faz a quebra de linha.
+
+            //Multiline = True permite exibir os produtos em várias linhas.
+
+            txt_carrinho.AppendText("HEADSET S/F HAVIT FUXI H3 R$190,00"
+            + Environment.NewLine);
         }
 
         private void pic_7600_Click(object sender, EventArgs e)
         {
-            txt_carrinho.Text = "PLACA DE VIDEO RX7600 ASROCK CHALLENGER DUAL FAN R$1.900,00";
+            txt_carrinho.AppendText("PLACA DE VIDEO RX7600 ASROCK CHALLENGER DUAL FAN R$1.900,00" + Environment.NewLine);
         }
 
         private void pic_memoriar_Click(object sender, EventArgs e)
         {
-            txt_carrinho.Text = "MEMÓRIA RAM RISE MODE 16GB 3200MHZ R$ 912,00";
+            txt_carrinho.AppendText("MEMÓRIA RAM RISE MODE 16GB 3200MHZ R$ 912,00" + Environment.NewLine);
         }
     }
 }

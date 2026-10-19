@@ -69,10 +69,12 @@
             // 
             // txt_carrinho
             // 
-            this.txt_carrinho.Location = new System.Drawing.Point(628, 89);
+            this.txt_carrinho.Location = new System.Drawing.Point(646, 89);
             this.txt_carrinho.Multiline = true;
             this.txt_carrinho.Name = "txt_carrinho";
-            this.txt_carrinho.Size = new System.Drawing.Size(380, 242);
+            this.txt_carrinho.ReadOnly = true;
+            this.txt_carrinho.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_carrinho.Size = new System.Drawing.Size(411, 262);
             this.txt_carrinho.TabIndex = 7;
             this.txt_carrinho.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -274,7 +276,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1038, 615);
+            this.ClientSize = new System.Drawing.Size(1130, 607);
             this.Controls.Add(this.btn_maisInfo5);
             this.Controls.Add(this.btn_maisInfo4);
             this.Controls.Add(this.btn_maisInfo3);
@@ -298,7 +300,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_promocoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CarrinhoGeek";
+            this.Text = "DistriGeek";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_memoriar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_fonte)).EndInit();
