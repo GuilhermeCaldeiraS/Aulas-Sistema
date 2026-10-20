@@ -40,7 +40,7 @@
             // 
             this.btn_voltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_voltar.ForeColor = System.Drawing.Color.Black;
-            this.btn_voltar.Location = new System.Drawing.Point(124, 376);
+            this.btn_voltar.Location = new System.Drawing.Point(121, 488);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(111, 50);
             this.btn_voltar.TabIndex = 7;
@@ -53,7 +53,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(219, 25);
+            this.label1.Location = new System.Drawing.Point(320, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(389, 30);
             this.label1.TabIndex = 6;
@@ -63,11 +63,11 @@
             // txt_havit
             // 
             this.txt_havit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_havit.Location = new System.Drawing.Point(396, 71);
+            this.txt_havit.Location = new System.Drawing.Point(537, 122);
             this.txt_havit.Multiline = true;
             this.txt_havit.Name = "txt_havit";
             this.txt_havit.ReadOnly = true;
-            this.txt_havit.Size = new System.Drawing.Size(281, 267);
+            this.txt_havit.Size = new System.Drawing.Size(391, 348);
             this.txt_havit.TabIndex = 5;
             this.txt_havit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_havit.TextChanged += new System.EventHandler(this.txt_ps5_TextChanged);
@@ -76,9 +76,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.headset_gamer_sem_fio_havit_fuxi_h3_7_1_surround_driver_40mm_bluetooth_e_usb_preto_fuxi_h3_black_1706888697_gg;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(124, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(121, 122);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 267);
+            this.pictureBox1.Size = new System.Drawing.Size(375, 348);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -89,7 +89,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.havit;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1130, 607);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_havit);

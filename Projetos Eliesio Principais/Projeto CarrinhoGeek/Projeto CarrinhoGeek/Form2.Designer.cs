@@ -40,7 +40,7 @@
             // 
             this.btn_voltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_voltar.ForeColor = System.Drawing.Color.Black;
-            this.btn_voltar.Location = new System.Drawing.Point(124, 376);
+            this.btn_voltar.Location = new System.Drawing.Point(95, 505);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(111, 50);
             this.btn_voltar.TabIndex = 7;
@@ -53,7 +53,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(219, 25);
+            this.label1.Location = new System.Drawing.Point(354, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(389, 30);
             this.label1.TabIndex = 6;
@@ -63,11 +63,11 @@
             // txt_xpgcore
             // 
             this.txt_xpgcore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_xpgcore.Location = new System.Drawing.Point(396, 71);
+            this.txt_xpgcore.Location = new System.Drawing.Point(539, 101);
             this.txt_xpgcore.Multiline = true;
             this.txt_xpgcore.Name = "txt_xpgcore";
             this.txt_xpgcore.ReadOnly = true;
-            this.txt_xpgcore.Size = new System.Drawing.Size(281, 267);
+            this.txt_xpgcore.Size = new System.Drawing.Size(341, 336);
             this.txt_xpgcore.TabIndex = 5;
             this.txt_xpgcore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_xpgcore.TextChanged += new System.EventHandler(this.txt_xpgcore_TextChanged);
@@ -76,9 +76,9 @@
             // 
             this.pic_xpg.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.fonte_xpg_core_reactor_ii_ve_850w_75261436_1721238617_gg;
             this.pic_xpg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_xpg.Location = new System.Drawing.Point(124, 71);
+            this.pic_xpg.Location = new System.Drawing.Point(184, 101);
             this.pic_xpg.Name = "pic_xpg";
-            this.pic_xpg.Size = new System.Drawing.Size(265, 267);
+            this.pic_xpg.Size = new System.Drawing.Size(325, 336);
             this.pic_xpg.TabIndex = 4;
             this.pic_xpg.TabStop = false;
             // 
@@ -88,7 +88,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.xpg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1130, 607);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_xpgcore);

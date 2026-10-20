@@ -40,9 +40,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.console_sony_playstation_5_ssd_825gb_controle_sem_fio_dualsense_2_jogos_digitais_edicao_digital_1765487654_gg;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(113, 122);
+            this.pictureBox1.Location = new System.Drawing.Point(183, 138);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 267);
+            this.pictureBox1.Size = new System.Drawing.Size(378, 312);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -50,11 +50,11 @@
             // txt_ps5
             // 
             this.txt_ps5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ps5.Location = new System.Drawing.Point(385, 122);
+            this.txt_ps5.Location = new System.Drawing.Point(598, 138);
             this.txt_ps5.Multiline = true;
             this.txt_ps5.Name = "txt_ps5";
             this.txt_ps5.ReadOnly = true;
-            this.txt_ps5.Size = new System.Drawing.Size(281, 267);
+            this.txt_ps5.Size = new System.Drawing.Size(394, 312);
             this.txt_ps5.TabIndex = 1;
             this.txt_ps5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_ps5.TextChanged += new System.EventHandler(this.txt_ps5_TextChanged);
@@ -64,7 +64,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(208, 76);
+            this.label1.Location = new System.Drawing.Point(395, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(389, 30);
             this.label1.TabIndex = 2;
@@ -76,7 +76,7 @@
             // 
             this.btn_voltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_voltar.ForeColor = System.Drawing.Color.Black;
-            this.btn_voltar.Location = new System.Drawing.Point(113, 427);
+            this.btn_voltar.Location = new System.Drawing.Point(79, 496);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(111, 50);
             this.btn_voltar.TabIndex = 3;
@@ -90,7 +90,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.playstaion_wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(833, 509);
+            this.ClientSize = new System.Drawing.Size(1130, 607);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_ps5);

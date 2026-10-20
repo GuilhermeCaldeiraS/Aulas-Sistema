@@ -40,7 +40,7 @@
             // 
             this.btn_voltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_voltar.ForeColor = System.Drawing.Color.Black;
-            this.btn_voltar.Location = new System.Drawing.Point(124, 376);
+            this.btn_voltar.Location = new System.Drawing.Point(83, 511);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(111, 50);
             this.btn_voltar.TabIndex = 7;
@@ -53,7 +53,7 @@
             this.lbl_risemode.BackColor = System.Drawing.Color.Transparent;
             this.lbl_risemode.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_risemode.ForeColor = System.Drawing.Color.White;
-            this.lbl_risemode.Location = new System.Drawing.Point(194, 9);
+            this.lbl_risemode.Location = new System.Drawing.Point(314, 22);
             this.lbl_risemode.Name = "lbl_risemode";
             this.lbl_risemode.Size = new System.Drawing.Size(432, 64);
             this.lbl_risemode.TabIndex = 6;
@@ -63,11 +63,11 @@
             // txt_memoria
             // 
             this.txt_memoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_memoria.Location = new System.Drawing.Point(396, 71);
+            this.txt_memoria.Location = new System.Drawing.Point(572, 128);
             this.txt_memoria.Multiline = true;
             this.txt_memoria.Name = "txt_memoria";
             this.txt_memoria.ReadOnly = true;
-            this.txt_memoria.Size = new System.Drawing.Size(281, 267);
+            this.txt_memoria.Size = new System.Drawing.Size(382, 349);
             this.txt_memoria.TabIndex = 5;
             this.txt_memoria.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -75,9 +75,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.Mem_ria_RAM_Rise_Mode_Z_16GB_3200MHz_DDR4_CL19_Branco_RM_D4_16G_3200ZW_1783349620;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(124, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(139, 128);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 267);
+            this.pictureBox1.Size = new System.Drawing.Size(366, 349);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -86,7 +86,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.rise_mdoe;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1130, 607);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.lbl_risemode);
             this.Controls.Add(this.txt_memoria);

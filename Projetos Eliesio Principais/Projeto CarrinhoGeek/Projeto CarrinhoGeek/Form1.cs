@@ -30,7 +30,7 @@ namespace Projeto_CarrinhoGeek
 
         private void btn_finalizarP_Click(object sender, EventArgs e)
         {
-            File.WriteAllText(@"C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\Pedidos\" +   "Pedido.txt", txt_carrinho.Text);
+            File.WriteAllText(@"C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\Pedidos\" + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + ".txt", txt_carrinho.Text);
             
             txt_carrinho.Clear();
             

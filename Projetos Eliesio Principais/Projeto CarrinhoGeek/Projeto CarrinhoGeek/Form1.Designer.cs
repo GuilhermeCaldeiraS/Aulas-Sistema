@@ -140,7 +140,7 @@
             this.lbl_memoria.Name = "lbl_memoria";
             this.lbl_memoria.Size = new System.Drawing.Size(158, 109);
             this.lbl_memoria.TabIndex = 14;
-            this.lbl_memoria.Text = "MEMÓRIA RAM RISE MODE 16GB 3200MHZ R$ 912,00";
+            this.lbl_memoria.Text = "MEMÓRIA RAM RISE MODE 16GB DDR4 3200MHZ R$ 912,00";
             this.lbl_memoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_7600
