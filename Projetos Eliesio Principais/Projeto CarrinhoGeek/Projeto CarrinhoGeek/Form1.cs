@@ -30,11 +30,19 @@ namespace Projeto_CarrinhoGeek
 
         private void btn_finalizarP_Click(object sender, EventArgs e)
         {
-            File.WriteAllText(@"C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\Pedidos\" + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + ".txt", txt_carrinho.Text);
-            
-            txt_carrinho.Clear();
-            
-            MessageBox.Show("Pedido realizado", "Sucesso!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //if e else para ver se o txt.carrinho está preenchido
+            if (txt_carrinho.Text == string.Empty)
+                MessageBox.Show("CAIXA VAZIA, PREENCHA COM ALGUM ITEM!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                MessageBox.Show("Pedido realizado", "Sucesso!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                File.WriteAllText(@"C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Projeto CarrinhoGeek\Projeto CarrinhoGeek\Pedidos\" + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + ".txt", txt_carrinho.Text);
+                txt_carrinho.Clear();
+            }
+
+
+
+
         }
 
         private void pic_ps5_Click(object sender, EventArgs e)
@@ -126,6 +134,11 @@ namespace Projeto_CarrinhoGeek
         private void pic_memoriar_Click(object sender, EventArgs e)
         {
             txt_carrinho.AppendText("MEMÓRIA RAM RISE MODE 16GB 3200MHZ R$ 912,00" + Environment.NewLine);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txt_carrinho.Clear();
         }
     }
 }

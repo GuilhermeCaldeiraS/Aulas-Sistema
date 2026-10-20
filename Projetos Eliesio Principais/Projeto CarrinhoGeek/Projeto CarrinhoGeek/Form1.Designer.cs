@@ -49,6 +49,7 @@
             this.pic_headset = new System.Windows.Forms.PictureBox();
             this.pic_ps5 = new System.Windows.Forms.PictureBox();
             this.pic_gif = new System.Windows.Forms.PictureBox();
+            this.btn_limpar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic_memoriar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_fonte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_7600)).BeginInit();
@@ -59,7 +60,7 @@
             // 
             // btn_finalizarP
             // 
-            this.btn_finalizarP.Location = new System.Drawing.Point(628, 375);
+            this.btn_finalizarP.Location = new System.Drawing.Point(646, 375);
             this.btn_finalizarP.Name = "btn_finalizarP";
             this.btn_finalizarP.Size = new System.Drawing.Size(175, 34);
             this.btn_finalizarP.TabIndex = 6;
@@ -271,12 +272,23 @@
             this.pic_gif.TabIndex = 0;
             this.pic_gif.TabStop = false;
             // 
+            // btn_limpar
+            // 
+            this.btn_limpar.Location = new System.Drawing.Point(646, 430);
+            this.btn_limpar.Name = "btn_limpar";
+            this.btn_limpar.Size = new System.Drawing.Size(175, 34);
+            this.btn_limpar.TabIndex = 21;
+            this.btn_limpar.Text = "LIMPAR";
+            this.btn_limpar.UseVisualStyleBackColor = true;
+            this.btn_limpar.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frm_promocoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1130, 607);
+            this.Controls.Add(this.btn_limpar);
             this.Controls.Add(this.btn_maisInfo5);
             this.Controls.Add(this.btn_maisInfo4);
             this.Controls.Add(this.btn_maisInfo3);
@@ -335,6 +347,7 @@
         private System.Windows.Forms.Button btn_maisInfo3;
         private System.Windows.Forms.Button btn_maisInfo4;
         private System.Windows.Forms.Button btn_maisInfo5;
+        private System.Windows.Forms.Button btn_limpar;
     }
 }
 
