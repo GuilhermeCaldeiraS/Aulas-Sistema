@@ -43,13 +43,13 @@
             this.btn_maisInfo3 = new System.Windows.Forms.Button();
             this.btn_maisInfo4 = new System.Windows.Forms.Button();
             this.btn_maisInfo5 = new System.Windows.Forms.Button();
+            this.btn_limpar = new System.Windows.Forms.Button();
             this.pic_memoriar = new System.Windows.Forms.PictureBox();
             this.pic_fonte = new System.Windows.Forms.PictureBox();
             this.pic_7600 = new System.Windows.Forms.PictureBox();
             this.pic_headset = new System.Windows.Forms.PictureBox();
             this.pic_ps5 = new System.Windows.Forms.PictureBox();
             this.pic_gif = new System.Windows.Forms.PictureBox();
-            this.btn_limpar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic_memoriar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_fonte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_7600)).BeginInit();
@@ -87,8 +87,9 @@
             this.lbl_promoções.Name = "lbl_promoções";
             this.lbl_promoções.Size = new System.Drawing.Size(364, 61);
             this.lbl_promoções.TabIndex = 8;
-            this.lbl_promoções.Text = "PROMOÇÕES DO DIA!!!";
+            this.lbl_promoções.Text = "DISTRIGEEK";
             this.lbl_promoções.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_promoções.Click += new System.EventHandler(this.lbl_promoções_Click);
             // 
             // label1
             // 
@@ -205,6 +206,16 @@
             this.btn_maisInfo5.UseVisualStyleBackColor = true;
             this.btn_maisInfo5.Click += new System.EventHandler(this.btn_maisInfo5_Click);
             // 
+            // btn_limpar
+            // 
+            this.btn_limpar.Location = new System.Drawing.Point(646, 430);
+            this.btn_limpar.Name = "btn_limpar";
+            this.btn_limpar.Size = new System.Drawing.Size(175, 34);
+            this.btn_limpar.TabIndex = 21;
+            this.btn_limpar.Text = "LIMPAR";
+            this.btn_limpar.UseVisualStyleBackColor = true;
+            this.btn_limpar.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pic_memoriar
             // 
             this.pic_memoriar.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.Mem_ria_RAM_Rise_Mode_Z_16GB_3200MHz_DDR4_CL19_Branco_RM_D4_16G_3200ZW_1783349620;
@@ -272,21 +283,13 @@
             this.pic_gif.TabIndex = 0;
             this.pic_gif.TabStop = false;
             // 
-            // btn_limpar
-            // 
-            this.btn_limpar.Location = new System.Drawing.Point(646, 430);
-            this.btn_limpar.Name = "btn_limpar";
-            this.btn_limpar.Size = new System.Drawing.Size(175, 34);
-            this.btn_limpar.TabIndex = 21;
-            this.btn_limpar.Text = "LIMPAR";
-            this.btn_limpar.UseVisualStyleBackColor = true;
-            this.btn_limpar.Click += new System.EventHandler(this.button1_Click);
-            // 
             // frm_promocoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Projeto_CarrinhoGeek.Properties.Resources.images1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1130, 607);
             this.Controls.Add(this.btn_limpar);
             this.Controls.Add(this.btn_maisInfo5);

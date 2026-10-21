@@ -124,6 +124,9 @@
   <data name="fonte_xpg_core_reactor_ii_ve_850w_75261436_1721238617_gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fonte-xpg-core-reactor-ii-ve-850w-75261436_1721238617_gg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="havit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\havit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -132,6 +135,9 @@
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mem_ria_RAM_Rise_Mode_Z_16GB_3200MHz_DDR4_CL19_Branco_RM_D4_16G_3200ZW_1783349620" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mem-ria-RAM-Rise-Mode-Z-16GB-3200MHz-DDR4-CL19-Branco-RM-D4-16G-3200ZW_1783349620.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

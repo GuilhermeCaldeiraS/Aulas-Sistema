@@ -140,5 +140,10 @@ namespace Projeto_CarrinhoGeek
         {
             txt_carrinho.Clear();
         }
+
+        private void lbl_promoções_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
