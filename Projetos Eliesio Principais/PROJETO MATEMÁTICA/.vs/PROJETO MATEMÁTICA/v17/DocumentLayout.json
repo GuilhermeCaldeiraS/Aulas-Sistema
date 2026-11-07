@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\projeto matem\u00E1tica\\projeto matem\u00E1tica\\dobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\dobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\projeto matem\u00E1tica\\projeto matem\u00E1tica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\projeto matem\u00E1tica\\projeto matem\u00E1tica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dobro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\dobro.cs",
+              "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\dobro.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\dobro.cs [Design]",
+              "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\dobro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:46:46.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Form1.cs",
+              "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Form1.cs",
+              "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\Form1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:42:18.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Form1.cs",
+              "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Form1.cs [Design]",
+              "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:39:18.337Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
