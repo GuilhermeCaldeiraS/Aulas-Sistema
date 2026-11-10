@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Antecessor ou Sucessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecessor ou Sucessor.Designer.cs">
+      <DependentUpon>Antecessor ou Sucessor.cs</DependentUpon>
+    </Compile>
     <Compile Include="dobro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,10 +64,34 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PAR OU IMPAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAR OU IMPAR.Designer.cs">
+      <DependentUpon>PAR OU IMPAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POSITIVO NEGATIVO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POSITIVO NEGATIVO.Designer.cs">
+      <DependentUpon>POSITIVO NEGATIVO.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Antecessor ou Sucessor.resx">
+      <DependentUpon>Antecessor ou Sucessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dobro.resx">
+      <DependentUpon>dobro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAR OU IMPAR.resx">
+      <DependentUpon>PAR OU IMPAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POSITIVO NEGATIVO.resx">
+      <DependentUpon>POSITIVO NEGATIVO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +121,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Transparent_X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caderneta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matrmatica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconshock-Vista-General-Trash.256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-go-next.256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-go-previous.256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,3 +8,8 @@ C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTIC
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO MATEMÁTICA.csproj.CoreCompileInputs.cache
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO MATEMÁTICA.exe
 C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO MATEMÁTICA.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO MATEMÁTICA.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO_MATEMÁTICA.frm_ant.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO_MATEMÁTICA.frm_dobro.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO_MATEMÁTICA.frm_par.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\PROJETO MATEMÁTICA\PROJETO MATEMÁTICA\obj\Debug\PROJETO_MATEMÁTICA.frm_positvo.resources

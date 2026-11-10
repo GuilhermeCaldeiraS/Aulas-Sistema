@@ -58,9 +58,9 @@
             this.rad_dobro.Name = "rad_dobro";
             this.rad_dobro.Size = new System.Drawing.Size(112, 31);
             this.rad_dobro.TabIndex = 1;
-            this.rad_dobro.TabStop = true;
             this.rad_dobro.Text = "DOBRO";
             this.rad_dobro.UseVisualStyleBackColor = false;
+            this.rad_dobro.CheckedChanged += new System.EventHandler(this.rad_dobro_CheckedChanged);
             // 
             // rad_parimpar
             // 
@@ -71,9 +71,9 @@
             this.rad_parimpar.Name = "rad_parimpar";
             this.rad_parimpar.Size = new System.Drawing.Size(401, 24);
             this.rad_parimpar.TabIndex = 2;
-            this.rad_parimpar.TabStop = true;
             this.rad_parimpar.Text = "PAR OU IMPAR";
             this.rad_parimpar.UseVisualStyleBackColor = false;
+            this.rad_parimpar.CheckedChanged += new System.EventHandler(this.rad_parimpar_CheckedChanged);
             // 
             // rad_positivoNN
             // 
@@ -84,9 +84,9 @@
             this.rad_positivoNN.Name = "rad_positivoNN";
             this.rad_positivoNN.Size = new System.Drawing.Size(499, 24);
             this.rad_positivoNN.TabIndex = 3;
-            this.rad_positivoNN.TabStop = true;
             this.rad_positivoNN.Text = "ANTECESSOR OU SUCESSOR";
             this.rad_positivoNN.UseVisualStyleBackColor = false;
+            this.rad_positivoNN.CheckedChanged += new System.EventHandler(this.rad_positivoNN_CheckedChanged);
             // 
             // rad_positivo
             // 
@@ -97,9 +97,9 @@
             this.rad_positivo.Name = "rad_positivo";
             this.rad_positivo.Size = new System.Drawing.Size(401, 24);
             this.rad_positivo.TabIndex = 4;
-            this.rad_positivo.TabStop = true;
             this.rad_positivo.Text = "POSITIVO, NEGATIVO OU NEUTRO";
             this.rad_positivo.UseVisualStyleBackColor = false;
+            this.rad_positivo.CheckedChanged += new System.EventHandler(this.rad_positivo_CheckedChanged);
             // 
             // rad_op
             // 
@@ -110,9 +110,9 @@
             this.rad_op.Name = "rad_op";
             this.rad_op.Size = new System.Drawing.Size(401, 24);
             this.rad_op.TabIndex = 5;
-            this.rad_op.TabStop = true;
             this.rad_op.Text = "OPERAÇÕES ARITMETICAS";
             this.rad_op.UseVisualStyleBackColor = false;
+            this.rad_op.CheckedChanged += new System.EventHandler(this.rad_op_CheckedChanged);
             // 
             // btn_fechar
             // 
@@ -140,8 +140,11 @@
             this.Controls.Add(this.rad_dobro);
             this.Controls.Add(this.lbl_projetos);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_matematica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frm_matematica_Load);
             this.ResumeLayout(false);
 
         }
