@@ -64,6 +64,7 @@
             this.txt_numeroPI.Name = "txt_numeroPI";
             this.txt_numeroPI.Size = new System.Drawing.Size(131, 20);
             this.txt_numeroPI.TabIndex = 2;
+            this.txt_numeroPI.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_numeroPI_KeyPress);
             // 
             // btn_voltar
             // 
@@ -90,6 +91,7 @@
             this.Name = "frm_par";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PAR_OU_IMPAR";
+            this.Load += new System.EventHandler(this.frm_par_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

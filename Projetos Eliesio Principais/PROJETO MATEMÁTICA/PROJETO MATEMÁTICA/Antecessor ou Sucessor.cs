@@ -19,7 +19,9 @@ namespace PROJETO_MATEMÁTICA
 
         private void btn_voltar_Click(object sender, EventArgs e)
         {
-
+            frm_matematica matematica = new frm_matematica();
+            matematica.Show();
+            Hide();
         }
     }
 }

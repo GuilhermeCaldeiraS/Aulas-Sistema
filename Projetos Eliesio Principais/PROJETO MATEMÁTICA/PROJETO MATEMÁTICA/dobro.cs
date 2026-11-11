@@ -15,7 +15,9 @@ namespace PROJETO_MATEMÁTICA
 
         private void Btn_voltar_Click(object sender, EventArgs e)
         {
-
+            frm_matematica matematica = new frm_matematica();
+            matematica.Show();
+            Hide();
         }
 
         private void txt_valorN_KeyPress(object sender, KeyPressEventArgs e)
@@ -32,6 +34,12 @@ namespace PROJETO_MATEMÁTICA
                     numerodobro = int.Parse(txt_valorN.Text);// A variavel está recebendo o numero que foi digitado e convertido
                     numerodobro = numerodobro * 2; //Cálculo do Dobro
                     MessageBox.Show("O Dobro é: " + numerodobro, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txt_valorN.Clear();// Limpando o Numero que foi digitado
+                    txt_valorN.Focus(); // deixar o cursor para digitar o proximo numero.
+                }
+                else // se não for digitado nada - Inverso de IF (Condição verdadeira)
+                {
+                    MessageBox.Show("Digite um Número! ! ! ", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
