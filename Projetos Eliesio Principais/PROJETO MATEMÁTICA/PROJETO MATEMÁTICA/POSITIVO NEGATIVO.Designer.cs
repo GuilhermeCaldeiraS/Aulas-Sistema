@@ -64,6 +64,7 @@
             this.txt_Numero.Name = "txt_Numero";
             this.txt_Numero.Size = new System.Drawing.Size(100, 20);
             this.txt_Numero.TabIndex = 2;
+            this.txt_Numero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Numero_KeyPress);
             // 
             // btn_voltar
             // 
