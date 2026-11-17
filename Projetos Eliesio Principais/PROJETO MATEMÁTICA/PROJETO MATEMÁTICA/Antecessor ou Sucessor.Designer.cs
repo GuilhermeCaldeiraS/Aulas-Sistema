@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl_ant = new System.Windows.Forms.Label();
             this.lbl_digiteumN = new System.Windows.Forms.Label();
             this.lbl_antecessor = new System.Windows.Forms.Label();
@@ -38,6 +39,9 @@
             this.pic_Sucessor = new System.Windows.Forms.PictureBox();
             this.pic_Lixo = new System.Windows.Forms.PictureBox();
             this.btn_voltar = new System.Windows.Forms.Button();
+            this.txt_calc1 = new System.Windows.Forms.TextBox();
+            this.txt_calc2 = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pic_setaE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Sucessor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Lixo)).BeginInit();
@@ -102,6 +106,7 @@
             this.lbl_limpar.Size = new System.Drawing.Size(67, 24);
             this.lbl_limpar.TabIndex = 4;
             this.lbl_limpar.Text = "Limpar";
+            this.lbl_limpar.Visible = false;
             // 
             // txt_Numero
             // 
@@ -109,6 +114,8 @@
             this.txt_Numero.Name = "txt_Numero";
             this.txt_Numero.Size = new System.Drawing.Size(120, 20);
             this.txt_Numero.TabIndex = 5;
+            this.txt_Numero.TextChanged += new System.EventHandler(this.txt_Numero_TextChanged);
+            this.txt_Numero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Numero_KeyPress);
             // 
             // pic_setaE
             // 
@@ -119,6 +126,7 @@
             this.pic_setaE.Size = new System.Drawing.Size(100, 74);
             this.pic_setaE.TabIndex = 6;
             this.pic_setaE.TabStop = false;
+            this.pic_setaE.Click += new System.EventHandler(this.pic_setaE_Click);
             // 
             // pic_Sucessor
             // 
@@ -129,6 +137,7 @@
             this.pic_Sucessor.Size = new System.Drawing.Size(100, 74);
             this.pic_Sucessor.TabIndex = 7;
             this.pic_Sucessor.TabStop = false;
+            this.pic_Sucessor.Click += new System.EventHandler(this.pic_Sucessor_Click);
             // 
             // pic_Lixo
             // 
@@ -139,6 +148,8 @@
             this.pic_Lixo.Size = new System.Drawing.Size(100, 87);
             this.pic_Lixo.TabIndex = 8;
             this.pic_Lixo.TabStop = false;
+            this.pic_Lixo.Visible = false;
+            this.pic_Lixo.Click += new System.EventHandler(this.pic_Lixo_Click);
             // 
             // btn_voltar
             // 
@@ -151,6 +162,28 @@
             this.btn_voltar.UseVisualStyleBackColor = true;
             this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
             // 
+            // txt_calc1
+            // 
+            this.txt_calc1.Location = new System.Drawing.Point(94, 363);
+            this.txt_calc1.Name = "txt_calc1";
+            this.txt_calc1.Size = new System.Drawing.Size(100, 20);
+            this.txt_calc1.TabIndex = 10;
+            this.txt_calc1.Visible = false;
+            this.txt_calc1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // txt_calc2
+            // 
+            this.txt_calc2.Location = new System.Drawing.Point(304, 363);
+            this.txt_calc2.Name = "txt_calc2";
+            this.txt_calc2.Size = new System.Drawing.Size(100, 20);
+            this.txt_calc2.TabIndex = 11;
+            this.txt_calc2.Visible = false;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // frm_ant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,6 +191,8 @@
             this.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.matrmatica;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt_calc2);
+            this.Controls.Add(this.txt_calc1);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.pic_Lixo);
             this.Controls.Add(this.pic_Sucessor);
@@ -192,5 +227,8 @@
         private System.Windows.Forms.PictureBox pic_Sucessor;
         private System.Windows.Forms.PictureBox pic_Lixo;
         private System.Windows.Forms.Button btn_voltar;
+        private System.Windows.Forms.TextBox txt_calc1;
+        private System.Windows.Forms.TextBox txt_calc2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
