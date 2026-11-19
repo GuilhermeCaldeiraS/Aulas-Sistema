@@ -31,20 +31,15 @@
             this.components = new System.ComponentModel.Container();
             this.lbl_ant = new System.Windows.Forms.Label();
             this.lbl_digiteumN = new System.Windows.Forms.Label();
-            this.lbl_antecessor = new System.Windows.Forms.Label();
-            this.lbl_sucessor = new System.Windows.Forms.Label();
-            this.lbl_limpar = new System.Windows.Forms.Label();
             this.txt_Numero = new System.Windows.Forms.TextBox();
-            this.pic_setaE = new System.Windows.Forms.PictureBox();
-            this.pic_Sucessor = new System.Windows.Forms.PictureBox();
-            this.pic_Lixo = new System.Windows.Forms.PictureBox();
             this.btn_voltar = new System.Windows.Forms.Button();
-            this.txt_calc1 = new System.Windows.Forms.TextBox();
-            this.txt_calc2 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_setaE)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Sucessor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Lixo)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_direita = new System.Windows.Forms.Button();
+            this.btn_lixeira = new System.Windows.Forms.Button();
+            this.btn_esqueda = new System.Windows.Forms.Button();
+            this.lbl_antecessor = new System.Windows.Forms.Label();
+            this.lbl_Sucessor = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_ant
@@ -71,43 +66,6 @@
             this.lbl_digiteumN.TabIndex = 1;
             this.lbl_digiteumN.Text = "Digite um número inteiro:";
             // 
-            // lbl_antecessor
-            // 
-            this.lbl_antecessor.AutoSize = true;
-            this.lbl_antecessor.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_antecessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_antecessor.ForeColor = System.Drawing.Color.White;
-            this.lbl_antecessor.Location = new System.Drawing.Point(90, 324);
-            this.lbl_antecessor.Name = "lbl_antecessor";
-            this.lbl_antecessor.Size = new System.Drawing.Size(110, 24);
-            this.lbl_antecessor.TabIndex = 2;
-            this.lbl_antecessor.Text = "Antecessor ";
-            // 
-            // lbl_sucessor
-            // 
-            this.lbl_sucessor.AutoSize = true;
-            this.lbl_sucessor.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_sucessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sucessor.ForeColor = System.Drawing.Color.White;
-            this.lbl_sucessor.Location = new System.Drawing.Point(300, 324);
-            this.lbl_sucessor.Name = "lbl_sucessor";
-            this.lbl_sucessor.Size = new System.Drawing.Size(94, 24);
-            this.lbl_sucessor.TabIndex = 3;
-            this.lbl_sucessor.Text = "Sucessor ";
-            // 
-            // lbl_limpar
-            // 
-            this.lbl_limpar.AutoSize = true;
-            this.lbl_limpar.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_limpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_limpar.ForeColor = System.Drawing.Color.White;
-            this.lbl_limpar.Location = new System.Drawing.Point(498, 324);
-            this.lbl_limpar.Name = "lbl_limpar";
-            this.lbl_limpar.Size = new System.Drawing.Size(67, 24);
-            this.lbl_limpar.TabIndex = 4;
-            this.lbl_limpar.Text = "Limpar";
-            this.lbl_limpar.Visible = false;
-            // 
             // txt_Numero
             // 
             this.txt_Numero.Location = new System.Drawing.Point(368, 149);
@@ -116,40 +74,6 @@
             this.txt_Numero.TabIndex = 5;
             this.txt_Numero.TextChanged += new System.EventHandler(this.txt_Numero_TextChanged);
             this.txt_Numero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Numero_KeyPress);
-            // 
-            // pic_setaE
-            // 
-            this.pic_setaE.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_go_previous_256;
-            this.pic_setaE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_setaE.Location = new System.Drawing.Point(94, 234);
-            this.pic_setaE.Name = "pic_setaE";
-            this.pic_setaE.Size = new System.Drawing.Size(100, 74);
-            this.pic_setaE.TabIndex = 6;
-            this.pic_setaE.TabStop = false;
-            this.pic_setaE.Click += new System.EventHandler(this.pic_setaE_Click);
-            // 
-            // pic_Sucessor
-            // 
-            this.pic_Sucessor.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_go_next_256;
-            this.pic_Sucessor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_Sucessor.Location = new System.Drawing.Point(304, 234);
-            this.pic_Sucessor.Name = "pic_Sucessor";
-            this.pic_Sucessor.Size = new System.Drawing.Size(100, 74);
-            this.pic_Sucessor.TabIndex = 7;
-            this.pic_Sucessor.TabStop = false;
-            this.pic_Sucessor.Click += new System.EventHandler(this.pic_Sucessor_Click);
-            // 
-            // pic_Lixo
-            // 
-            this.pic_Lixo.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.Iconshock_Vista_General_Trash_256;
-            this.pic_Lixo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_Lixo.Location = new System.Drawing.Point(502, 221);
-            this.pic_Lixo.Name = "pic_Lixo";
-            this.pic_Lixo.Size = new System.Drawing.Size(100, 87);
-            this.pic_Lixo.TabIndex = 8;
-            this.pic_Lixo.TabStop = false;
-            this.pic_Lixo.Visible = false;
-            this.pic_Lixo.Click += new System.EventHandler(this.pic_Lixo_Click);
             // 
             // btn_voltar
             // 
@@ -162,27 +86,70 @@
             this.btn_voltar.UseVisualStyleBackColor = true;
             this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
             // 
-            // txt_calc1
-            // 
-            this.txt_calc1.Location = new System.Drawing.Point(94, 363);
-            this.txt_calc1.Name = "txt_calc1";
-            this.txt_calc1.Size = new System.Drawing.Size(100, 20);
-            this.txt_calc1.TabIndex = 10;
-            this.txt_calc1.Visible = false;
-            this.txt_calc1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // txt_calc2
-            // 
-            this.txt_calc2.Location = new System.Drawing.Point(304, 363);
-            this.txt_calc2.Name = "txt_calc2";
-            this.txt_calc2.Size = new System.Drawing.Size(100, 20);
-            this.txt_calc2.TabIndex = 11;
-            this.txt_calc2.Visible = false;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(-15, -15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btn_direita
+            // 
+            this.btn_direita.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_go_next_256;
+            this.btn_direita.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_direita.Location = new System.Drawing.Point(277, 228);
+            this.btn_direita.Name = "btn_direita";
+            this.btn_direita.Size = new System.Drawing.Size(104, 65);
+            this.btn_direita.TabIndex = 11;
+            this.btn_direita.UseVisualStyleBackColor = true;
+            this.btn_direita.Click += new System.EventHandler(this.btn_direita_Click);
+            // 
+            // btn_lixeira
+            // 
+            this.btn_lixeira.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.Iconshock_Vista_General_Trash_256;
+            this.btn_lixeira.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_lixeira.Location = new System.Drawing.Point(494, 249);
+            this.btn_lixeira.Name = "btn_lixeira";
+            this.btn_lixeira.Size = new System.Drawing.Size(86, 102);
+            this.btn_lixeira.TabIndex = 12;
+            this.btn_lixeira.UseVisualStyleBackColor = true;
+            this.btn_lixeira.Click += new System.EventHandler(this.btn_lixeira_Click);
+            // 
+            // btn_esqueda
+            // 
+            this.btn_esqueda.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_go_previous_256;
+            this.btn_esqueda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_esqueda.Location = new System.Drawing.Point(136, 228);
+            this.btn_esqueda.Name = "btn_esqueda";
+            this.btn_esqueda.Size = new System.Drawing.Size(104, 65);
+            this.btn_esqueda.TabIndex = 13;
+            this.btn_esqueda.UseVisualStyleBackColor = true;
+            this.btn_esqueda.Click += new System.EventHandler(this.btn_esqueda_Click);
+            // 
+            // lbl_antecessor
+            // 
+            this.lbl_antecessor.Location = new System.Drawing.Point(140, 311);
+            this.lbl_antecessor.Name = "lbl_antecessor";
+            this.lbl_antecessor.Size = new System.Drawing.Size(100, 23);
+            this.lbl_antecessor.TabIndex = 14;
+            this.lbl_antecessor.Text = "?";
+            this.lbl_antecessor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_Sucessor
+            // 
+            this.lbl_Sucessor.Location = new System.Drawing.Point(274, 311);
+            this.lbl_Sucessor.Name = "lbl_Sucessor";
+            this.lbl_Sucessor.Size = new System.Drawing.Size(100, 23);
+            this.lbl_Sucessor.TabIndex = 15;
+            this.lbl_Sucessor.Text = "?";
+            this.lbl_Sucessor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frm_ant
             // 
@@ -191,25 +158,21 @@
             this.BackgroundImage = global::PROJETO_MATEMÁTICA.Properties.Resources.matrmatica;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txt_calc2);
-            this.Controls.Add(this.txt_calc1);
-            this.Controls.Add(this.btn_voltar);
-            this.Controls.Add(this.pic_Lixo);
-            this.Controls.Add(this.pic_Sucessor);
-            this.Controls.Add(this.pic_setaE);
-            this.Controls.Add(this.txt_Numero);
-            this.Controls.Add(this.lbl_limpar);
-            this.Controls.Add(this.lbl_sucessor);
+            this.Controls.Add(this.lbl_Sucessor);
             this.Controls.Add(this.lbl_antecessor);
+            this.Controls.Add(this.btn_esqueda);
+            this.Controls.Add(this.btn_lixeira);
+            this.Controls.Add(this.btn_direita);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_voltar);
+            this.Controls.Add(this.txt_Numero);
             this.Controls.Add(this.lbl_digiteumN);
             this.Controls.Add(this.lbl_ant);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_ant";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Antecessor_ou_Sucessor";
-            ((System.ComponentModel.ISupportInitialize)(this.pic_setaE)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Sucessor)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Lixo)).EndInit();
+            this.Load += new System.EventHandler(this.frm_ant_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,16 +182,14 @@
 
         private System.Windows.Forms.Label lbl_ant;
         private System.Windows.Forms.Label lbl_digiteumN;
-        private System.Windows.Forms.Label lbl_antecessor;
-        private System.Windows.Forms.Label lbl_sucessor;
-        private System.Windows.Forms.Label lbl_limpar;
         private System.Windows.Forms.TextBox txt_Numero;
-        private System.Windows.Forms.PictureBox pic_setaE;
-        private System.Windows.Forms.PictureBox pic_Sucessor;
-        private System.Windows.Forms.PictureBox pic_Lixo;
         private System.Windows.Forms.Button btn_voltar;
-        private System.Windows.Forms.TextBox txt_calc1;
-        private System.Windows.Forms.TextBox txt_calc2;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_direita;
+        private System.Windows.Forms.Button btn_lixeira;
+        private System.Windows.Forms.Button btn_esqueda;
+        private System.Windows.Forms.Label lbl_antecessor;
+        private System.Windows.Forms.Label lbl_Sucessor;
     }
 }

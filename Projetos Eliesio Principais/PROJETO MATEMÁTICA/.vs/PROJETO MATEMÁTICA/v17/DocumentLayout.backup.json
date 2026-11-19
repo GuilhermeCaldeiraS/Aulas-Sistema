@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\projeto matem\u00E1tica\\positivo negativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\positivo negativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\projeto matem\u00E1tica\\projeto matem\u00E1tica\\antecessor ou sucessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\antecessor ou sucessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\projeto matem\u00E1tica\\antecessor ou sucessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\antecessor ou sucessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\projeto matem\u00E1tica\\positivo negativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|solutionrelative:projeto matem\u00E1tica\\positivo negativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5214D35E-2AD9-49D2-ACE8-171A510CA4DE}|PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\projeto matem\u00E1tica\\par ou impar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,24 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Antecessor ou Sucessor.cs",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
               "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
               "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
               "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAHkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T23:20:17.707Z",
+              "WhenOpened": "2026-11-18T22:40:11.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Antecessor ou Sucessor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
+              "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
+              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs [Design]",
+              "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T22:44:35.966Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "POSITIVO NEGATIVO.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\POSITIVO NEGATIVO.cs",
               "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\POSITIVO NEGATIVO.cs",
@@ -74,8 +86,7 @@
               "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\PAR OU IMPAR.cs [Design]",
               "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\PAR OU IMPAR.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T23:05:53.245Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-11-09T23:05:53.245Z"
             },
             {
               "$type": "Document",
@@ -86,20 +97,7 @@
               "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\dobro.cs [Design]",
               "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\dobro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T23:46:46.503Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Antecessor ou Sucessor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
-              "RelativeDocumentMoniker": "PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs",
-              "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\PROJETO MATEM\u00C1TICA\\PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs [Design]",
-              "RelativeToolTip": "PROJETO MATEM\u00C1TICA\\Antecessor ou Sucessor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T22:44:35.966Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-11-06T23:46:46.503Z"
             },
             {
               "$type": "Document",
