@@ -1,0 +1,11 @@
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\bin\Debug\Loja de Itens.exe.config
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\bin\Debug\Loja de Itens.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\bin\Debug\Loja de Itens.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja de Itens.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja_de_Itens.frm_loja.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja_de_Itens.Properties.Resources.resources
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja de Itens.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja de Itens.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja de Itens.exe
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja de Itens.pdb
+C:\Users\DB\Desktop\Aulas-Sistema\Projetos Eliesio Principais\Loja de Itens\Loja de Itens\obj\Debug\Loja de Itens.exe.config
