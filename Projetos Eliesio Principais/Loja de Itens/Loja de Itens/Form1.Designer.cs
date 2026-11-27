@@ -38,10 +38,10 @@
             this.Chk_P3 = new System.Windows.Forms.CheckBox();
             this.Chk_P2 = new System.Windows.Forms.CheckBox();
             this.Chk_P1 = new System.Windows.Forms.CheckBox();
-            this.Num_P9 = new System.Windows.Forms.NumericUpDown();
             this.Num_P8 = new System.Windows.Forms.NumericUpDown();
             this.Num_P7 = new System.Windows.Forms.NumericUpDown();
             this.Num_P6 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P5 = new System.Windows.Forms.NumericUpDown();
             this.Num_P4 = new System.Windows.Forms.NumericUpDown();
             this.Num_P3 = new System.Windows.Forms.NumericUpDown();
             this.Num_P2 = new System.Windows.Forms.NumericUpDown();
@@ -73,10 +73,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_total2 = new System.Windows.Forms.Label();
             this.grp_listcompras.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Num_P9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P2)).BeginInit();
@@ -101,10 +101,10 @@
             this.grp_listcompras.Controls.Add(this.Chk_P3);
             this.grp_listcompras.Controls.Add(this.Chk_P2);
             this.grp_listcompras.Controls.Add(this.Chk_P1);
-            this.grp_listcompras.Controls.Add(this.Num_P9);
             this.grp_listcompras.Controls.Add(this.Num_P8);
             this.grp_listcompras.Controls.Add(this.Num_P7);
             this.grp_listcompras.Controls.Add(this.Num_P6);
+            this.grp_listcompras.Controls.Add(this.Num_P5);
             this.grp_listcompras.Controls.Add(this.Num_P4);
             this.grp_listcompras.Controls.Add(this.Num_P3);
             this.grp_listcompras.Controls.Add(this.Num_P2);
@@ -149,6 +149,7 @@
             this.Chk_P8.TabIndex = 37;
             this.Chk_P8.Text = "PRODUTO 08";
             this.Chk_P8.UseVisualStyleBackColor = true;
+            this.Chk_P8.CheckedChanged += new System.EventHandler(this.Chk_P8_CheckedChanged);
             // 
             // Chk_P7
             // 
@@ -159,6 +160,7 @@
             this.Chk_P7.TabIndex = 36;
             this.Chk_P7.Text = "PRODUTO 07";
             this.Chk_P7.UseVisualStyleBackColor = true;
+            this.Chk_P7.CheckedChanged += new System.EventHandler(this.Chk_P7_CheckedChanged);
             // 
             // Chk_P6
             // 
@@ -169,6 +171,7 @@
             this.Chk_P6.TabIndex = 35;
             this.Chk_P6.Text = "PRODUTO 06";
             this.Chk_P6.UseVisualStyleBackColor = true;
+            this.Chk_P6.CheckedChanged += new System.EventHandler(this.Chk_P6_CheckedChanged);
             // 
             // Chk_P5
             // 
@@ -179,6 +182,7 @@
             this.Chk_P5.TabIndex = 34;
             this.Chk_P5.Text = "PRODUTO 05";
             this.Chk_P5.UseVisualStyleBackColor = true;
+            this.Chk_P5.CheckedChanged += new System.EventHandler(this.Chk_P5_CheckedChanged);
             // 
             // Chk_P4
             // 
@@ -189,6 +193,7 @@
             this.Chk_P4.TabIndex = 33;
             this.Chk_P4.Text = "PRODUTO 04";
             this.Chk_P4.UseVisualStyleBackColor = true;
+            this.Chk_P4.CheckedChanged += new System.EventHandler(this.Chk_P4_CheckedChanged);
             // 
             // Chk_P3
             // 
@@ -199,6 +204,7 @@
             this.Chk_P3.TabIndex = 32;
             this.Chk_P3.Text = "PRODUTO 03";
             this.Chk_P3.UseVisualStyleBackColor = true;
+            this.Chk_P3.CheckedChanged += new System.EventHandler(this.Chk_P3_CheckedChanged);
             // 
             // Chk_P2
             // 
@@ -209,6 +215,7 @@
             this.Chk_P2.TabIndex = 31;
             this.Chk_P2.Text = "PRODUTO 02";
             this.Chk_P2.UseVisualStyleBackColor = true;
+            this.Chk_P2.CheckedChanged += new System.EventHandler(this.Chk_P2_CheckedChanged);
             // 
             // Chk_P1
             // 
@@ -221,33 +228,37 @@
             this.Chk_P1.UseVisualStyleBackColor = true;
             this.Chk_P1.CheckedChanged += new System.EventHandler(this.Chk_P1_CheckedChanged);
             // 
-            // Num_P9
-            // 
-            this.Num_P9.Location = new System.Drawing.Point(1103, 232);
-            this.Num_P9.Name = "Num_P9";
-            this.Num_P9.Size = new System.Drawing.Size(35, 20);
-            this.Num_P9.TabIndex = 29;
-            // 
             // Num_P8
             // 
-            this.Num_P8.Location = new System.Drawing.Point(945, 232);
+            this.Num_P8.Location = new System.Drawing.Point(1103, 232);
             this.Num_P8.Name = "Num_P8";
             this.Num_P8.Size = new System.Drawing.Size(35, 20);
-            this.Num_P8.TabIndex = 28;
+            this.Num_P8.TabIndex = 29;
+            this.Num_P8.ValueChanged += new System.EventHandler(this.Num_P8_ValueChanged);
             // 
             // Num_P7
             // 
-            this.Num_P7.Location = new System.Drawing.Point(795, 232);
+            this.Num_P7.Location = new System.Drawing.Point(945, 232);
             this.Num_P7.Name = "Num_P7";
             this.Num_P7.Size = new System.Drawing.Size(35, 20);
-            this.Num_P7.TabIndex = 27;
+            this.Num_P7.TabIndex = 28;
+            this.Num_P7.ValueChanged += new System.EventHandler(this.Num_P7_ValueChanged);
             // 
             // Num_P6
             // 
-            this.Num_P6.Location = new System.Drawing.Point(631, 232);
+            this.Num_P6.Location = new System.Drawing.Point(795, 232);
             this.Num_P6.Name = "Num_P6";
             this.Num_P6.Size = new System.Drawing.Size(35, 20);
-            this.Num_P6.TabIndex = 26;
+            this.Num_P6.TabIndex = 27;
+            this.Num_P6.ValueChanged += new System.EventHandler(this.Num_P6_ValueChanged);
+            // 
+            // Num_P5
+            // 
+            this.Num_P5.Location = new System.Drawing.Point(631, 232);
+            this.Num_P5.Name = "Num_P5";
+            this.Num_P5.Size = new System.Drawing.Size(35, 20);
+            this.Num_P5.TabIndex = 26;
+            this.Num_P5.ValueChanged += new System.EventHandler(this.Num_P5_ValueChanged);
             // 
             // Num_P4
             // 
@@ -255,6 +266,7 @@
             this.Num_P4.Name = "Num_P4";
             this.Num_P4.Size = new System.Drawing.Size(35, 20);
             this.Num_P4.TabIndex = 25;
+            this.Num_P4.ValueChanged += new System.EventHandler(this.Num_P4_ValueChanged);
             // 
             // Num_P3
             // 
@@ -262,6 +274,7 @@
             this.Num_P3.Name = "Num_P3";
             this.Num_P3.Size = new System.Drawing.Size(35, 20);
             this.Num_P3.TabIndex = 24;
+            this.Num_P3.ValueChanged += new System.EventHandler(this.Num_P3_ValueChanged);
             // 
             // Num_P2
             // 
@@ -269,6 +282,7 @@
             this.Num_P2.Name = "Num_P2";
             this.Num_P2.Size = new System.Drawing.Size(35, 20);
             this.Num_P2.TabIndex = 23;
+            this.Num_P2.ValueChanged += new System.EventHandler(this.Num_P2_ValueChanged);
             // 
             // Num_P1
             // 
@@ -276,6 +290,7 @@
             this.Num_P1.Name = "Num_P1";
             this.Num_P1.Size = new System.Drawing.Size(35, 20);
             this.Num_P1.TabIndex = 22;
+            this.Num_P1.ValueChanged += new System.EventHandler(this.Num_P1_ValueChanged);
             // 
             // lbl_E8
             // 
@@ -534,10 +549,10 @@
             this.Load += new System.EventHandler(this.frm_loja_Load);
             this.grp_listcompras.ResumeLayout(false);
             this.grp_listcompras.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Num_P9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Num_P2)).EndInit();
@@ -592,10 +607,10 @@
         private System.Windows.Forms.CheckBox Chk_P3;
         private System.Windows.Forms.CheckBox Chk_P2;
         private System.Windows.Forms.CheckBox Chk_P1;
-        private System.Windows.Forms.NumericUpDown Num_P9;
         private System.Windows.Forms.NumericUpDown Num_P8;
         private System.Windows.Forms.NumericUpDown Num_P7;
         private System.Windows.Forms.NumericUpDown Num_P6;
+        private System.Windows.Forms.NumericUpDown Num_P5;
         private System.Windows.Forms.NumericUpDown Num_P4;
         private System.Windows.Forms.NumericUpDown Num_P3;
         private System.Windows.Forms.NumericUpDown Num_P2;

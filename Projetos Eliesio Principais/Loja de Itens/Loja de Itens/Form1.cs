@@ -15,6 +15,247 @@ namespace Loja_de_Itens
 
         decimal bicicleta, calculadora, camera, cd, celular, churrasqueira, despertador, micro;
 
+        private void Chk_P2_CheckedChanged(object sender, EventArgs e)
+        {
+
+            calculadora = (decimal)50.00;
+            e2 = 09;
+
+            if (Chk_P2.Checked == true)
+            {
+                Chk_P2.Text = "calculadora";
+                pic1.BackgroundImage = Properties.Resources.calculadora;
+                List_Produtos.Items.Add("Calculadora");
+                List_Compras.Items.Add("Calculadora");
+                List_Precos.Items.Add(calculadora.ToString("c2"));
+                Num_P2.Visible = true;
+                Num_P2.Maximum = e2;
+            }
+            else
+            {
+                Chk_P2.Text = "calculadora";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("calculadora");
+                List_Compras.Items.Remove("calculadora");
+                List_Precos.Items.Remove(calculadora.ToString("c2"));
+                Num_P2.Visible = false;
+                Num_P2.Maximum = 0;
+            }
+        }
+
+        private void Chk_P3_CheckedChanged(object sender, EventArgs e)
+        {
+
+            camera = (decimal)3000.00;
+            e3 = 07;
+
+            if (Chk_P3.Checked == true)
+            {
+                Chk_P3.Text = "câmera";
+                pic1.BackgroundImage = Properties.Resources.p1100_camera;
+                List_Produtos.Items.Add("Nikon Compacta");
+                List_Compras.Items.Add("Nikon Compacta");
+                List_Precos.Items.Add(camera.ToString("c2"));
+                Num_P3.Visible = true;
+                Num_P3.Maximum = e3;
+            }
+            else
+            {
+                Chk_P3.Text = "bicicleta";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("bicicleta");
+                List_Compras.Items.Remove(bicicleta.ToString("cs2"));
+                Num_P3.Visible = true;
+                Num_P3.Maximum = 0;
+            }
+        }
+
+        private void Chk_P4_CheckedChanged(object sender, EventArgs e)
+        {
+            cd = (decimal)5.00;
+            e4 = 65;
+
+            if (Chk_P4.Checked == true)
+            {
+                Chk_P4.Text = "MaxPrint 700 MB";
+                pic1.BackgroundImage = Properties.Resources.cd;
+                List_Produtos.Items.Add("MaxPrint 700 MB");
+                List_Compras.Items.Add("MaxPrint 700 MB");
+                List_Precos.Items.Add(cd.ToString("cs2"));
+                Num_P4.Visible = true;
+                Num_P4.Maximum = e4;
+            }
+            else
+            {
+                Chk_P4.Text = "MaxPrint 700 MB";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("MaxPrint 700 MB");
+                List_Compras.Items.Remove(cd.ToString("cs2"));
+                Num_P4.Visible = true;
+                Num_P4.Maximum = 0;
+            }
+        }
+
+        private void Chk_P5_CheckedChanged(object sender, EventArgs e)
+        {
+            celular = (decimal)2500.00;
+            e5 = 15;
+
+            if (Chk_P5.Checked == true)
+            {
+                Chk_P5.Text = "64GB – iOS – Impressão Digital";
+                pic1.BackgroundImage = Properties.Resources.iphone;
+                List_Produtos.Items.Add("64GB – iOS – Impressão Digital");
+                List_Compras.Items.Add("64GB – iOS – Impressão Digital");
+                List_Precos.Items.Add(celular.ToString("cs2"));
+                Num_P5.Visible = true;
+                Num_P5.Maximum = e5;
+            }
+            else
+            {
+                Chk_P5.Text = "64GB – iOS – Impressão Digital";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("64GB – iOS – Impressão Digital");
+                List_Compras.Items.Remove(celular.ToString("cs2"));
+                Num_P5.Visible = true;
+                Num_P5.Maximum = 0;
+            }
+        }
+
+        private void Chk_P6_CheckedChanged(object sender, EventArgs e)
+        {
+            churrasqueira = (decimal)160.00;
+            e6 = 08;
+
+            if (Chk_P6.Checked == true)
+            {
+                Chk_P6.Text = "churrasqueira portaiil";
+                pic1.BackgroundImage = Properties.Resources.churrasqueira;
+                List_Produtos.Items.Add("churrasqueira portaiil");
+                List_Compras.Items.Add(churrasqueira.ToString("cs2"));
+                List_Precos.Items.Add("churrasqueira portaiil");
+                Num_P6.Visible = true;
+                Num_P6.Maximum = e6;
+            }
+            else
+            {
+                Chk_P6.Text = "churrasqueira portaiil";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("churrasqueira portaiil");
+                List_Compras.Items.Remove(churrasqueira.ToString("cs2"));
+                Num_P6.Visible = true;
+                Num_P6.Maximum = 0;
+            }
+        }
+
+        private void Chk_P7_CheckedChanged(object sender, EventArgs e)
+        {
+            despertador = (decimal)50.00;
+            e7 = 08;
+
+            if (Chk_P7.Checked == true)
+            {
+                Chk_P7.Text = "Despertador";
+                pic1.BackgroundImage = Properties.Resources.relogio;
+                List_Produtos.Items.Add("Despertador");
+                List_Compras.Items.Add(despertador.ToString("cs2")); 
+                List_Precos.Items.Add("Despertador");
+                Num_P7.Visible = true;
+                Num_P7.Maximum = e6;
+            }
+            else
+            {
+                Chk_P7.Text = "Despertador";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove(despertador.ToString("cs2"));
+                List_Compras.Items.Remove("Despertador");
+                Num_P7.Visible = true;
+                Num_P7.Maximum = 0;
+            }
+        }
+
+        private void Chk_P8_CheckedChanged(object sender, EventArgs e)
+        {
+            micro = (decimal)2000.00;
+            e8 = 06;
+
+            if (Chk_P8.Checked == true)
+            {
+                Chk_P8.Text = "Micro PC";
+                pic1.BackgroundImage = Properties.Resources.mini_pc;
+                List_Produtos.Items.Add("Micro PC");
+                List_Compras.Items.Add(micro.ToString("cs2"));
+                List_Precos.Items.Add("Micro PC");
+                Num_P8.Visible = true;
+                Num_P8.Maximum = e6;
+            }
+            else
+            {
+                Chk_P8.Text = "Micro PC";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("Micro PC");
+                List_Compras.Items.Remove(micro.ToString("cs2"));
+                Num_P8.Visible = true;
+                Num_P8.Maximum = 0;
+            }
+        }
+
+        private void Num_P1_ValueChanged(object sender, EventArgs e)
+        {
+            q1 = (decimal)Num_P1.Value;
+            lbl_E1.Text = "Disponivel:" + (e1 - q1);
+            total();
+        }
+
+        private void Num_P2_ValueChanged(object sender, EventArgs e)
+        {
+            q2 = (decimal)Num_P2.Value;
+            lbl_E2.Text = "Disponivel:" + (e2 - q2);
+            total();
+        }
+
+        private void Num_P3_ValueChanged(object sender, EventArgs e)
+        {
+            q3 = (decimal)Num_P3.Value;
+            lbl_E3.Text = "Disponivel:" + (e3 - q3);
+            total();
+        }
+
+        private void Num_P4_ValueChanged(object sender, EventArgs e)
+        {
+            q4 = (decimal)Num_P4.Value;
+            lbl_E4.Text = "Disponivel:" + (e4 - q4);
+            total();
+        }
+
+        private void Num_P5_ValueChanged(object sender, EventArgs e)
+        {
+            q5 = (decimal)Num_P5.Value;
+            lbl_E5.Text = "Disponivel:" + (e5 - q5);
+            total();
+        }
+
+        private void Num_P6_ValueChanged(object sender, EventArgs e)
+        {
+            q6 = (decimal)Num_P6.Value;
+            lbl_E6.Text = "Disponivel:" + (e6 - q6);
+            total();
+        }
+
+        private void Num_P7_ValueChanged(object sender, EventArgs e)
+        {
+            q7 = (decimal)Num_P7.Value;
+            lbl_E7.Text = "Disponivel:" + (e7 - q7);
+            total();
+        }
+
+        private void Num_P8_ValueChanged(object sender, EventArgs e)
+        {
+            q8 = (decimal)Num_P8.Value;
+            lbl_E8.Text = "Disponivel:" + (e8 - q8);
+            total();
+        }
+
         private void lbl_total2_Click(object sender, EventArgs e)
         {
 
@@ -54,7 +295,15 @@ namespace Loja_de_Itens
                 Num_P1.Visible = true;
                 Num_P1.Maximum = e1;
             }
-           
+            else
+            {
+                Chk_P1.Text = "bicicleta";
+                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("bicicleta");
+                List_Compras.Items.Remove("Aro 26 Caloi");
+                Num_P1.Visible = true;
+                Num_P1.Maximum = 0;
+            }
         }
     }
 }
