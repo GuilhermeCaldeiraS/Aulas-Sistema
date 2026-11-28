@@ -484,6 +484,7 @@
             // 
             // List_Precos
             // 
+            this.List_Precos.FormatString = "C2";
             this.List_Precos.FormattingEnabled = true;
             this.List_Precos.Location = new System.Drawing.Point(369, 69);
             this.List_Precos.Name = "List_Precos";
@@ -544,8 +545,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.grp_listcompras);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_loja";
-            this.Text = "Form1";
+            this.Text = "Loja de Itens";
             this.Load += new System.EventHandler(this.frm_loja_Load);
             this.grp_listcompras.ResumeLayout(false);
             this.grp_listcompras.PerformLayout();

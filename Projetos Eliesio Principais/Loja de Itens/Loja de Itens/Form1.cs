@@ -24,20 +24,20 @@ namespace Loja_de_Itens
             if (Chk_P2.Checked == true)
             {
                 Chk_P2.Text = "calculadora";
-                pic1.BackgroundImage = Properties.Resources.calculadora;
+                pic2.BackgroundImage = Properties.Resources.calculadora;
                 List_Produtos.Items.Add("Calculadora");
                 List_Compras.Items.Add("Calculadora");
-                List_Precos.Items.Add(calculadora.ToString("c2"));
+                List_Precos.Items.Add(calculadora);
                 Num_P2.Visible = true;
                 Num_P2.Maximum = e2;
             }
             else
             {
                 Chk_P2.Text = "calculadora";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
-                List_Produtos.Items.Remove("calculadora");
-                List_Compras.Items.Remove("calculadora");
-                List_Precos.Items.Remove(calculadora.ToString("c2"));
+                pic2.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("Calculadora");
+                List_Compras.Items.Remove("Calculadora");
+                List_Precos.Items.Remove(calculadora);
                 Num_P2.Visible = false;
                 Num_P2.Maximum = 0;
             }
@@ -52,19 +52,20 @@ namespace Loja_de_Itens
             if (Chk_P3.Checked == true)
             {
                 Chk_P3.Text = "câmera";
-                pic1.BackgroundImage = Properties.Resources.p1100_camera;
+                pic3.BackgroundImage = Properties.Resources.p1100_camera;
                 List_Produtos.Items.Add("Nikon Compacta");
                 List_Compras.Items.Add("Nikon Compacta");
-                List_Precos.Items.Add(camera.ToString("c2"));
+                List_Precos.Items.Add(camera);
                 Num_P3.Visible = true;
                 Num_P3.Maximum = e3;
             }
             else
             {
-                Chk_P3.Text = "bicicleta";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
-                List_Produtos.Items.Remove("bicicleta");
-                List_Compras.Items.Remove(bicicleta.ToString("cs2"));
+                Chk_P3.Text = "câmera";
+                pic3.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("Nikon Compacta");
+                List_Compras.Items.Remove("Nikon Compacta");
+                List_Precos.Items.Remove(camera);
                 Num_P3.Visible = true;
                 Num_P3.Maximum = 0;
             }
@@ -78,19 +79,20 @@ namespace Loja_de_Itens
             if (Chk_P4.Checked == true)
             {
                 Chk_P4.Text = "MaxPrint 700 MB";
-                pic1.BackgroundImage = Properties.Resources.cd;
+                pic4.BackgroundImage = Properties.Resources.cd;
                 List_Produtos.Items.Add("MaxPrint 700 MB");
                 List_Compras.Items.Add("MaxPrint 700 MB");
-                List_Precos.Items.Add(cd.ToString("cs2"));
+                List_Precos.Items.Add(cd);
                 Num_P4.Visible = true;
                 Num_P4.Maximum = e4;
             }
             else
             {
                 Chk_P4.Text = "MaxPrint 700 MB";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                pic4.BackgroundImage = Properties.Resources.carrinho_png;
                 List_Produtos.Items.Remove("MaxPrint 700 MB");
-                List_Compras.Items.Remove(cd.ToString("cs2"));
+                List_Compras.Items.Remove("MaxPrint 700 MB");
+                List_Precos.Items.Remove(cd);
                 Num_P4.Visible = true;
                 Num_P4.Maximum = 0;
             }
@@ -103,20 +105,21 @@ namespace Loja_de_Itens
 
             if (Chk_P5.Checked == true)
             {
-                Chk_P5.Text = "64GB – iOS – Impressão Digital";
-                pic1.BackgroundImage = Properties.Resources.iphone;
-                List_Produtos.Items.Add("64GB – iOS – Impressão Digital");
-                List_Compras.Items.Add("64GB – iOS – Impressão Digital");
-                List_Precos.Items.Add(celular.ToString("cs2"));
+                Chk_P5.Text = "64GB – iOS";
+                pic5.BackgroundImage = Properties.Resources.iphone;
+                List_Produtos.Items.Add("64GB – iOS");
+                List_Compras.Items.Add("64GB – iOS");
+                List_Precos.Items.Add(celular);
                 Num_P5.Visible = true;
                 Num_P5.Maximum = e5;
             }
             else
             {
-                Chk_P5.Text = "64GB – iOS – Impressão Digital";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
-                List_Produtos.Items.Remove("64GB – iOS – Impressão Digital");
-                List_Compras.Items.Remove(celular.ToString("cs2"));
+                Chk_P5.Text = "64GB – iOS";
+                pic5.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("64GB – iOS");
+                List_Compras.Items.Remove("64GB – iOS");
+                List_Precos.Items.Remove(celular);
                 Num_P5.Visible = true;
                 Num_P5.Maximum = 0;
             }
@@ -130,19 +133,20 @@ namespace Loja_de_Itens
             if (Chk_P6.Checked == true)
             {
                 Chk_P6.Text = "churrasqueira portaiil";
-                pic1.BackgroundImage = Properties.Resources.churrasqueira;
-                List_Produtos.Items.Add("churrasqueira portaiil");
-                List_Compras.Items.Add(churrasqueira.ToString("cs2"));
-                List_Precos.Items.Add("churrasqueira portaiil");
+                pic6.BackgroundImage = Properties.Resources.churrasqueira;
+                List_Produtos.Items.Add("churrasqueira");
+                List_Compras.Items.Add("churrasqueira");
+                List_Precos.Items.Add(churrasqueira);
                 Num_P6.Visible = true;
                 Num_P6.Maximum = e6;
             }
             else
             {
                 Chk_P6.Text = "churrasqueira portaiil";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
-                List_Produtos.Items.Remove("churrasqueira portaiil");
-                List_Compras.Items.Remove(churrasqueira.ToString("cs2"));
+                pic6.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("churrasqueira");
+                List_Compras.Items.Remove("churrasqueira");
+                List_Precos.Items.Remove(churrasqueira);
                 Num_P6.Visible = true;
                 Num_P6.Maximum = 0;
             }
@@ -156,19 +160,20 @@ namespace Loja_de_Itens
             if (Chk_P7.Checked == true)
             {
                 Chk_P7.Text = "Despertador";
-                pic1.BackgroundImage = Properties.Resources.relogio;
+                pic7.BackgroundImage = Properties.Resources.relogio;
                 List_Produtos.Items.Add("Despertador");
-                List_Compras.Items.Add(despertador.ToString("cs2")); 
-                List_Precos.Items.Add("Despertador");
+                List_Compras.Items.Add("Despertador"); 
+                List_Precos.Items.Add(despertador);
                 Num_P7.Visible = true;
                 Num_P7.Maximum = e6;
             }
             else
             {
                 Chk_P7.Text = "Despertador";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
-                List_Produtos.Items.Remove(despertador.ToString("cs2"));
+                pic7.BackgroundImage = Properties.Resources.carrinho_png;
+                List_Produtos.Items.Remove("Despertador");
                 List_Compras.Items.Remove("Despertador");
+                List_Precos.Items.Remove(despertador);
                 Num_P7.Visible = true;
                 Num_P7.Maximum = 0;
             }
@@ -182,19 +187,20 @@ namespace Loja_de_Itens
             if (Chk_P8.Checked == true)
             {
                 Chk_P8.Text = "Micro PC";
-                pic1.BackgroundImage = Properties.Resources.mini_pc;
+                pic8.BackgroundImage = Properties.Resources.mini_pc;
                 List_Produtos.Items.Add("Micro PC");
-                List_Compras.Items.Add(micro.ToString("cs2"));
-                List_Precos.Items.Add("Micro PC");
+                List_Compras.Items.Add("Micro PC");
+                List_Precos.Items.Add(micro);
                 Num_P8.Visible = true;
                 Num_P8.Maximum = e6;
             }
             else
             {
                 Chk_P8.Text = "Micro PC";
-                pic1.BackgroundImage = Properties.Resources.carrinho_png;
+                pic8.BackgroundImage = Properties.Resources.carrinho_png;
                 List_Produtos.Items.Remove("Micro PC");
-                List_Compras.Items.Remove(micro.ToString("cs2"));
+                List_Compras.Items.Remove("Micro PC");
+                List_Precos.Items.Remove(micro);
                 Num_P8.Visible = true;
                 Num_P8.Maximum = 0;
             }
@@ -299,8 +305,9 @@ namespace Loja_de_Itens
             {
                 Chk_P1.Text = "bicicleta";
                 pic1.BackgroundImage = Properties.Resources.carrinho_png;
-                List_Produtos.Items.Remove("bicicleta");
+                List_Produtos.Items.Remove("Bicicleta");
                 List_Compras.Items.Remove("Aro 26 Caloi");
+                List_Precos.Items.Remove(bicicleta);
                 Num_P1.Visible = true;
                 Num_P1.Maximum = 0;
             }

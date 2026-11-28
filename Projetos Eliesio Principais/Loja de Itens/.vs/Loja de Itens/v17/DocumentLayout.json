@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Loja de Itens\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F2B68F3-4644-49C8-8CA7-8EF39DF6231D}|Loja de Itens\\Loja de Itens.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\loja de itens\\loja de itens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F2B68F3-4644-49C8-8CA7-8EF39DF6231D}|Loja de Itens\\Loja de Itens.csproj|solutionrelative:loja de itens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F2B68F3-4644-49C8-8CA7-8EF39DF6231D}|Loja de Itens\\Loja de Itens.csproj|C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Loja de Itens\\loja de itens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F2B68F3-4644-49C8-8CA7-8EF39DF6231D}|Loja de Itens\\Loja de Itens.csproj|solutionrelative:loja de itens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2B68F3-4644-49C8-8CA7-8EF39DF6231D}|Loja de Itens\\Loja de Itens.csproj|c:\\users\\db\\desktop\\aulas-sistema\\projetos eliesio principais\\loja de itens\\loja de itens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2B68F3-4644-49C8-8CA7-8EF39DF6231D}|Loja de Itens\\Loja de Itens.csproj|solutionrelative:loja de itens\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Loja de Itens\\Loja de Itens\\Form1.cs",
               "RelativeDocumentMoniker": "Loja de Itens\\Form1.cs",
@@ -38,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Loja de Itens\\Loja de Itens\\Form1.cs",
               "RelativeDocumentMoniker": "Loja de Itens\\Form1.cs",
               "ToolTip": "C:\\Users\\DB\\Desktop\\Aulas-Sistema\\Projetos Eliesio Principais\\Loja de Itens\\Loja de Itens\\Form1.cs",
               "RelativeToolTip": "Loja de Itens\\Form1.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAAAMBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T22:45:39.199Z",
               "EditorCaption": ""
